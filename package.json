@@ -6,6 +6,15 @@
     "dev:sass": "sass --watch --no-source-map sass/style.scss style.css",
     "dev": "npm run dev:sass"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-basil/hotelwork.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ok-basil/hotelwork/issues"
+  },
+  "homepage": "https://github.com/ok-basil/hotelwork/blob/master/README.md",
   "author": "Basil",
   "license": "ISC",
   "devDependencies": {
