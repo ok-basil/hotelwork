@@ -1,0 +1,24 @@
+{
+  "name": "new_work",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:sass": "sass --watch --no-source-map sass/style.scss style.css",
+    "dev": "npm run dev:sass"
+  },
+  "author": "Basil",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.14",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "postcss-scss": "^4.0.6"
+  }
+}
