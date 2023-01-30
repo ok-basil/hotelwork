@@ -480,8 +480,92 @@ ul.breadcrumb li+li:before {
     justify-content: space-between;
 }
 
-.package-card {
+.package-card-1, .package-card-2 {
     width: 538px;
     height: 200px;
-    display: flex
+}
+
+.highlight-header, .details-header {
+    width: 100%;
+    height: 50px;
+    background-color: $secondary-color;
+    display: flex;
+    border-radius: 4px 4px 0px 0px;
+    align-items: center;
+
+    h5 {
+        margin-left: 20px;
+        color: $primary-color;
+        font-family: 'Mulish';
+        font-weight: 700;
+        font-size: $normal-sizing;
+        line-height: $large-sizing;
+    }
+}
+
+
+    
+.card-highlight {
+    display: flex;
+    justify-content: space-between;
+    width: 479px;
+    height: 96px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    .card-1, .card-2 {
+        
+        p {
+            display: flex;
+            align-items: center;
+            font-family: 'Mulish';
+            font-size: $smaller-sizing;
+            font-style: normal;
+            line-height: calc($normal-sizing + 1px);
+        }
+
+    }
+}
+
+.card-detail {
+    @extend .card-highlight;
+    padding-bottom: 0px !important;
+
+    .details-1 {
+        display: flex;
+        justify-content: center;
+    
+        .design {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 168px;
+            height: 103px;
+    
+            p {
+                margin: 0;
+                font-family: 'Mulish';
+                font-size: $smaller-sizing;
+                font-style: normal;
+                line-height: calc($normal-sizing + 1px);
+
+            }
+        }
+    }
+    
+    .details-2 {
+        height: 20px;
+        display: flex;
+
+        p {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            font-family: 'Mulish';
+            font-size: $normal-sizing;
+            font-style: normal;
+            line-height: calc($normal-sizing + 1px);
+        }
+    }
 }

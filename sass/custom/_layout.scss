@@ -36,3 +36,9 @@
     position: relative;
     top: 29px;
 }
+
+.card-highlight-wrapper, .card-details-wrapper {
+    background-color: $primary-color;
+    height: 150px;
+    border-radius: 8px 8px 8px 0px;
+}

@@ -115,6 +115,12 @@ a {
   top: 29px;
 }
 
+.card-highlight-wrapper, .card-details-wrapper {
+  background-color: #FFFFFF;
+  height: 150px;
+  border-radius: 8px 8px 8px 0px;
+}
+
 .nav {
   position: relative;
 }
@@ -565,8 +571,77 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   justify-content: space-between;
 }
 
-.package-card {
+.package-card-1, .package-card-2 {
   width: 538px;
   height: 200px;
+}
+
+.highlight-header, .details-header {
+  width: 100%;
+  height: 50px;
+  background-color: #0A223D;
   display: flex;
+  border-radius: 4px 4px 0px 0px;
+  align-items: center;
+}
+.highlight-header h5, .details-header h5 {
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card-highlight, .card-detail {
+  display: flex;
+  justify-content: space-between;
+  width: 479px;
+  height: 96px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card-highlight .card-1 p, .card-detail .card-1 p, .card-highlight .card-2 p, .card-detail .card-2 p {
+  display: flex;
+  align-items: center;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-style: normal;
+  line-height: 15px;
+}
+
+.card-detail {
+  padding-bottom: 0px !important;
+}
+.card-detail .details-1 {
+  display: flex;
+  justify-content: center;
+}
+.card-detail .details-1 .design {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 168px;
+  height: 103px;
+}
+.card-detail .details-1 .design p {
+  margin: 0;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-style: normal;
+  line-height: 15px;
+}
+.card-detail .details-2 {
+  height: 20px;
+  display: flex;
+}
+.card-detail .details-2 p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 15px;
 }
