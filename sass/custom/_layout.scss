@@ -1,44 +1,38 @@
 .site-wrapper {
     width: 79%;
-    max-width: 1100px;
-    height: max-content;
+    // height: max-content;
     padding: 0px 0px;
     margin: auto;
-    left: 0;
     right: 0;
-
-    @include respond(md) {
-        width: 79%;
-        max-width: 1100px;
-        padding: 0;
-    }
 }
 
 .wrapper {
-    width: 1440px;
-    position: absolute;
+    width: 100%;
 }
 
 .column-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
+    width: 33%;
 }
 
 .card-wrapper {
-    width: 295px;
+    width: 82%;
     height: max-content;
-    left: 0;
-    right: 0;
     padding: 0px 0px;
     margin: auto;
-    position: relative;
-    top: 29px;
 }
 
 .card-highlight-wrapper, .card-details-wrapper {
     background-color: $primary-color;
-    height: 150px;
+    height: max-content;
     border-radius: 8px 8px 8px 0px;
+}
+
+.package-details-wrapper {
+    background-color: $primary-color;
+    height: 500px;
+    border-radius: $minute-sizing;
+    width: 1110px;
 }

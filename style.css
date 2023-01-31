@@ -8,7 +8,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Mulish";
-  background-color: #FFFFFF;
+  background-color: #F5FAFE;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h4 {
   font-size: 18px;
 }
 
-h5 {
+h5, .package-card-details .summary-details .activity-6, .package-card-details .summary-details .activity-5, .package-card-details .summary-details .activity-4, .package-card-details .summary-details .activity-3, .package-card-details .summary-details .activity-2, .package-card-details .summary-details .activity-1 {
   font-size: 13px;
 }
 
@@ -36,7 +36,7 @@ h6 {
   font-size: 12px;
 }
 
-p {
+p, .package-card-details .summary-details .activity-6, .package-card-details .summary-details .activity-5, .package-card-details .summary-details .activity-4, .package-card-details .summary-details .activity-3, .package-card-details .summary-details .activity-2, .package-card-details .summary-details .activity-1 {
   font-size: 12px;
 }
 
@@ -84,148 +84,110 @@ a {
 
 .site-wrapper {
   width: 79%;
-  max-width: 1100px;
-  height: max-content;
   padding: 0px 0px;
   margin: auto;
-  left: 0;
   right: 0;
 }
 
-.wrapper, .package-section, .hotel-wrapper {
-  width: 1440px;
-  position: absolute;
+.wrapper, .other-packages, .package-section, .hotel-wrapper {
+  width: 100%;
 }
 
 .column-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
+  width: 33%;
 }
 
 .card-wrapper {
-  width: 295px;
+  width: 82%;
   height: max-content;
-  left: 0;
-  right: 0;
   padding: 0px 0px;
   margin: auto;
-  position: relative;
-  top: 29px;
 }
 
 .card-highlight-wrapper, .card-details-wrapper {
   background-color: #FFFFFF;
-  height: 150px;
+  height: max-content;
   border-radius: 8px 8px 8px 0px;
 }
 
-.nav {
-  position: relative;
+.package-details-wrapper {
+  background-color: #FFFFFF;
+  height: 500px;
+  border-radius: 8px;
+  width: 1110px;
 }
 
 .nav-bg {
   background-color: #F5FAFE;
-  height: 60px;
   line-height: 13px;
-  position: absolute;
-  width: 1440px;
+  width: 100%;
 }
-
-.nav-top {
+.nav-bg .nav-top {
   display: flex;
-  width: 1020px;
+  width: 100%;
   justify-content: space-between;
-  top: 24px;
   line-height: 13px;
   align-items: center;
   color: #333333;
   font-style: normal;
-  height: 40px;
 }
-
-.nav-enquiry {
+.nav-bg .nav-enquiry {
   display: flex;
-  width: 243px;
-  height: 13px;
-  left: 165px;
-  top: 24px;
-  justify-content: space-between;
-}
-.nav-enquiry p {
-  font-size: 10px;
-  font-weight: 700;
-}
-
-.nav-btp {
-  display: flex;
-  width: 102px;
-  height: 18px;
-  left: 957px;
-  top: 25px;
-  gap: 20px;
-}
-.nav-btp p {
-  font-size: 10px;
-  font-weight: 400;
-}
-
-.nav-loyalty {
-  display: flex;
-  width: 115px;
-  height: 18px;
-  left: 1157px;
-  top: 25px;
-  gap: 20px;
-}
-.nav-loyalty p {
-  font-size: 10px;
-  font-weight: 400;
-}
-
-.nav-btp-loyalty {
-  display: flex;
-  width: 238px;
   justify-content: space-between;
   align-items: center;
-  left: 80px;
-  position: relative;
+}
+.nav-bg .nav-enquiry p, .nav-bg .nav-enquiry .package-card-details .summary-details .activity-6, .package-card-details .summary-details .nav-bg .nav-enquiry .activity-6, .nav-bg .nav-enquiry .package-card-details .summary-details .activity-5, .package-card-details .summary-details .nav-bg .nav-enquiry .activity-5, .nav-bg .nav-enquiry .package-card-details .summary-details .activity-4, .package-card-details .summary-details .nav-bg .nav-enquiry .activity-4, .nav-bg .nav-enquiry .package-card-details .summary-details .activity-3, .package-card-details .summary-details .nav-bg .nav-enquiry .activity-3, .nav-bg .nav-enquiry .package-card-details .summary-details .activity-2, .package-card-details .summary-details .nav-bg .nav-enquiry .activity-2, .nav-bg .nav-enquiry .package-card-details .summary-details .activity-1, .package-card-details .summary-details .nav-bg .nav-enquiry .activity-1 {
+  font-size: 10px;
+  font-weight: 700;
+  font-style: normal;
+}
+.nav-bg .nav-btp {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-bg .nav-btp p, .nav-bg .nav-btp .package-card-details .summary-details .activity-6, .package-card-details .summary-details .nav-bg .nav-btp .activity-6, .nav-bg .nav-btp .package-card-details .summary-details .activity-5, .package-card-details .summary-details .nav-bg .nav-btp .activity-5, .nav-bg .nav-btp .package-card-details .summary-details .activity-4, .package-card-details .summary-details .nav-bg .nav-btp .activity-4, .nav-bg .nav-btp .package-card-details .summary-details .activity-3, .package-card-details .summary-details .nav-bg .nav-btp .activity-3, .nav-bg .nav-btp .package-card-details .summary-details .activity-2, .package-card-details .summary-details .nav-bg .nav-btp .activity-2, .nav-bg .nav-btp .package-card-details .summary-details .activity-1, .package-card-details .summary-details .nav-bg .nav-btp .activity-1 {
+  font-size: 10px;
+  font-weight: 400;
+}
+.nav-bg .nav-loyalty {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-bg .nav-loyalty p, .nav-bg .nav-loyalty .package-card-details .summary-details .activity-6, .package-card-details .summary-details .nav-bg .nav-loyalty .activity-6, .nav-bg .nav-loyalty .package-card-details .summary-details .activity-5, .package-card-details .summary-details .nav-bg .nav-loyalty .activity-5, .nav-bg .nav-loyalty .package-card-details .summary-details .activity-4, .package-card-details .summary-details .nav-bg .nav-loyalty .activity-4, .nav-bg .nav-loyalty .package-card-details .summary-details .activity-3, .package-card-details .summary-details .nav-bg .nav-loyalty .activity-3, .nav-bg .nav-loyalty .package-card-details .summary-details .activity-2, .package-card-details .summary-details .nav-bg .nav-loyalty .activity-2, .nav-bg .nav-loyalty .package-card-details .summary-details .activity-1, .package-card-details .summary-details .nav-bg .nav-loyalty .activity-1 {
+  font-size: 10px;
+  font-weight: 400;
+}
+.nav-bg .nav-btp-loyalty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 .nav-main {
   height: 120px;
-  left: 0;
-  top: 60px;
-  position: relative;
   align-items: center;
   display: flex;
-  width: 1440px;
+  width: 100%;
+  background-color: #FFFFFF;
 }
-
-.best-tour-plan {
-  display: flex;
-  top: 39px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  width: 177px;
-  height: 24px;
-  left: 165px;
-  top: 111px;
-}
-
-.logo-search {
+.nav-main .best-tour-plan {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 570px;
+}
+.nav-main .logo-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 108px;
 }
-
-.search-input {
+.nav-main .search-input {
   width: 350px;
   height: 40px;
   padding-left: 20px;
@@ -234,51 +196,36 @@ a {
   border-radius: 6px;
   border: none;
 }
-
-.search-button {
+.nav-main .search-button {
   border: none;
   cursor: pointer;
   width: 65px;
   height: 40px;
   padding: 0px;
 }
-
-.menu {
+.nav-main .menu {
   display: flex;
-  width: 218px;
+  width: 20%;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   gap: 30px;
 }
 
 .nav-bottom {
-  position: absolute;
-  height: 80px;
-  top: 180px;
-  width: 1440px;
+  width: 100%;
   background-color: #0A223D;
 }
-
-.nav-bottom-list {
+.nav-bottom .nav-bottom-list {
   display: flex;
   width: 100%;
-  position: relative;
-  top: 10px;
 }
 
 .bread-crumb {
-  position: absolute;
-  width: 1440px;
-  height: 50px;
-  left: 0px;
-  top: 260px;
-  background-color: #F5FAFE;
+  width: 100%;
 }
 
 ul.breadcrumb, li.breadcrumb {
-  width: 200px;
-  height: 13px;
+  cursor: pointer;
   line-height: 13px !important;
 }
 
@@ -289,6 +236,10 @@ ul.breadcrumb li, li.breadcrumb li {
 
 ul.breadcrumb li a, li.breadcrumb li a {
   color: #0A223D !important;
+  text-decoration: none;
+  font-size: 10px !important;
+  font-family: "Mulish";
+  font-weight: 400 !important;
 }
 
 ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
@@ -297,41 +248,34 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 
 .hotel-wrapper {
-  height: 550px;
-  left: 0px;
-  top: 310px;
   background-color: #F5FAFE;
 }
 
 .hotel-name {
   display: flex;
   justify-content: space-between;
-  width: 1102px;
+  width: 100%;
   align-items: center;
-  top: 310px;
+  margin-top: 30px;
+  margin-bottom: 8px;
 }
 
 .stars {
-  width: 48px;
+  width: 100%;
   height: 8px;
-  left: 116px;
-  top: 333px;
 }
 
 .hilton-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 388px;
-  height: 30px;
 }
 .hilton-section h3 {
-  width: 268px;
-  height: 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
+  margin: 0;
 }
 .hilton-section span {
   display: flex;
@@ -339,32 +283,27 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #EC1F46;
   width: 70px;
   height: 28px;
-  left: 447px;
-  top: 351px;
   border-radius: 3px;
 }
-.hilton-section span p {
+.hilton-section span p, .hilton-section span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hilton-section span .activity-6, .hilton-section span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hilton-section span .activity-5, .hilton-section span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hilton-section span .activity-4, .hilton-section span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hilton-section span .activity-3, .hilton-section span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hilton-section span .activity-2, .hilton-section span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hilton-section span .activity-1 {
   font-size: 10px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 13px;
   color: #FFFFFF;
 }
 
 .half-board {
-  width: 389px;
+  width: 100%;
   height: 15px;
   color: #333333;
-  top: -10px;
   display: block;
-  position: relative;
 }
-.half-board p {
+.half-board p, .half-board .package-card-details .summary-details .activity-6, .package-card-details .summary-details .half-board .activity-6, .half-board .package-card-details .summary-details .activity-5, .package-card-details .summary-details .half-board .activity-5, .half-board .package-card-details .summary-details .activity-4, .package-card-details .summary-details .half-board .activity-4, .half-board .package-card-details .summary-details .activity-3, .package-card-details .summary-details .half-board .activity-3, .half-board .package-card-details .summary-details .activity-2, .package-card-details .summary-details .half-board .activity-2, .half-board .package-card-details .summary-details .activity-1, .package-card-details .summary-details .half-board .activity-1 {
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
   line-height: 15px;
   color: #333333;
-  position: relative;
 }
 
 .user-rating {
@@ -386,42 +325,38 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 
 .rating {
-  width: 67px;
+  width: 100%;
   height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.rating p {
+.rating p, .rating .package-card-details .summary-details .activity-6, .package-card-details .summary-details .rating .activity-6, .rating .package-card-details .summary-details .activity-5, .package-card-details .summary-details .rating .activity-5, .rating .package-card-details .summary-details .activity-4, .package-card-details .summary-details .rating .activity-4, .rating .package-card-details .summary-details .activity-3, .package-card-details .summary-details .rating .activity-3, .rating .package-card-details .summary-details .activity-2, .package-card-details .summary-details .rating .activity-2, .rating .package-card-details .summary-details .activity-1, .package-card-details .summary-details .rating .activity-1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  width: 31px;
-  line-height: 18px;
 }
 
 .slider {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
-  height: 450px;
+  width: 100%;
 }
 
 .beach {
-  width: 728px;
-  height: 450px;
-  left: 167px;
-  top: 410px;
+  width: 64%;
   background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
   border-radius: 8px;
+}
+.beach img {
+  width: 100%;
 }
 
 .view-options {
   background-color: #0A223D;
-  width: 350px;
-  height: 210px;
-  left: 925px;
-  top: 410px;
+  width: 100%;
+  height: 190px;
+  display: flex;
   border-radius: 8px;
 }
 
@@ -435,59 +370,41 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 
 .price {
   color: #FFFFFF;
-  width: 86px;
-  height: 59px;
-  left: 951px;
-  top: 439px;
 }
-.price p {
+.price p, .price .package-card-details .summary-details .activity-6, .package-card-details .summary-details .price .activity-6, .price .package-card-details .summary-details .activity-5, .package-card-details .summary-details .price .activity-5, .price .package-card-details .summary-details .activity-4, .package-card-details .summary-details .price .activity-4, .price .package-card-details .summary-details .activity-3, .package-card-details .summary-details .price .activity-3, .price .package-card-details .summary-details .activity-2, .package-card-details .summary-details .price .activity-2, .price .package-card-details .summary-details .activity-1, .package-card-details .summary-details .price .activity-1 {
   margin: 0 !important;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
-  width: 100%;
-  left: 951px;
-  top: 439px;
-  height: 14px;
 }
 .price strong {
   font-family: "Nunito";
-  font-style: normal;
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
-  width: 85px;
-  left: 951px;
-  top: 453px;
-  height: 33px;
 }
 
 .room {
   color: #FFFFFF;
-  width: 80px;
-  height: max-content;
-  left: 1166px;
-  top: 443px;
+  display: flex;
+  flex-direction: column;
 }
-.room span p {
-  width: 80px;
-  height: 16px;
-  left: 1166px;
+.room span p, .room span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .room span .activity-6, .room span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .room span .activity-5, .room span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .room span .activity-4, .room span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .room span .activity-3, .room span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .room span .activity-2, .room span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .room span .activity-1 {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .booking {
-  width: 295px;
   height: 25px;
-  left: 951px;
-  top: 507px;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   color: #FFFFFF;
   padding-top: 9px;
@@ -497,18 +414,20 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
+  line-height: 25px;
 }
-.booking span p {
+.booking span p, .booking span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .booking span .activity-6, .booking span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .booking span .activity-5, .booking span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .booking span .activity-4, .booking span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .booking span .activity-3, .booking span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .booking span .activity-2, .booking span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .booking span .activity-1 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 25px;
   color: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .map {
-  left: 925px;
-  top: 647px;
   border-radius: 10px;
 }
 
@@ -516,8 +435,6 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 295px;
-  height: 45px;
   background-color: #EC1F46;
   border-radius: 4px;
   margin-top: 17px;
@@ -527,13 +444,13 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   font-family: "Nunito";
   font-style: normal;
   font-size: 14px;
-  line-height: 19px;
+  font-weight: 600;
+  line-height: 34px;
 }
 
 .package-section {
-  height: 878px;
-  top: 859.68px;
   background-color: #F5FAFE;
+  margin-top: 40px;
 }
 
 .package-container {
@@ -546,9 +463,14 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  gap: 53px;
 }
-.package-menu p {
+.package-menu p:first-of-type, .package-menu .package-card-details .summary-details .activity-6:first-of-type, .package-card-details .summary-details .package-menu .activity-6:first-of-type, .package-menu .package-card-details .summary-details .activity-5:first-of-type, .package-card-details .summary-details .package-menu .activity-5:first-of-type, .package-menu .package-card-details .summary-details .activity-4:first-of-type, .package-card-details .summary-details .package-menu .activity-4:first-of-type, .package-menu .package-card-details .summary-details .activity-3:first-of-type, .package-card-details .summary-details .package-menu .activity-3:first-of-type, .package-menu .package-card-details .summary-details .activity-2:first-of-type, .package-card-details .summary-details .package-menu .activity-2:first-of-type, .package-menu .package-card-details .summary-details .activity-1:first-of-type, .package-card-details .summary-details .package-menu .activity-1:first-of-type {
+  color: #EC1F46;
+}
+.package-menu p:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-6:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-6:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-5:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-5:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-4:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-4:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-3:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-3:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-2:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-2:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-1:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-1:first-of-type a:first-of-type {
+  color: #EC1F46;
+}
+.package-menu p, .package-menu .package-card-details .summary-details .activity-6, .package-card-details .summary-details .package-menu .activity-6, .package-menu .package-card-details .summary-details .activity-5, .package-card-details .summary-details .package-menu .activity-5, .package-menu .package-card-details .summary-details .activity-4, .package-card-details .summary-details .package-menu .activity-4, .package-menu .package-card-details .summary-details .activity-3, .package-card-details .summary-details .package-menu .activity-3, .package-menu .package-card-details .summary-details .activity-2, .package-card-details .summary-details .package-menu .activity-2, .package-menu .package-card-details .summary-details .activity-1, .package-card-details .summary-details .package-menu .activity-1 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -558,33 +480,35 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 
 .package-summary {
-  width: 1110px;
-  height: 842px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+.package-summary h3 {
+  margin-bottom: 0;
 }
 
 .package-offer {
   display: flex;
-  width: 1110px;
-  height: 200px;
+  width: 100%;
   justify-content: space-between;
 }
 
 .package-card-1, .package-card-2 {
-  width: 538px;
-  height: 200px;
+  width: 49%;
+  background-color: #FFFFFF;
 }
 
 .highlight-header, .details-header {
   width: 100%;
-  height: 50px;
   background-color: #0A223D;
   display: flex;
   border-radius: 4px 4px 0px 0px;
   align-items: center;
+  color: #FFFFFF;
 }
-.highlight-header h5, .details-header h5 {
+.highlight-header h5, .highlight-header .package-card-details .summary-details .activity-6, .package-card-details .summary-details .highlight-header .activity-6, .highlight-header .package-card-details .summary-details .activity-5, .package-card-details .summary-details .highlight-header .activity-5, .highlight-header .package-card-details .summary-details .activity-4, .package-card-details .summary-details .highlight-header .activity-4, .highlight-header .package-card-details .summary-details .activity-3, .package-card-details .summary-details .highlight-header .activity-3, .highlight-header .package-card-details .summary-details .activity-2, .package-card-details .summary-details .highlight-header .activity-2, .highlight-header .package-card-details .summary-details .activity-1, .package-card-details .summary-details .highlight-header .activity-1, .details-header h5, .details-header .package-card-details .summary-details .activity-6, .package-card-details .summary-details .details-header .activity-6, .details-header .package-card-details .summary-details .activity-5, .package-card-details .summary-details .details-header .activity-5, .details-header .package-card-details .summary-details .activity-4, .package-card-details .summary-details .details-header .activity-4, .details-header .package-card-details .summary-details .activity-3, .package-card-details .summary-details .details-header .activity-3, .details-header .package-card-details .summary-details .activity-2, .package-card-details .summary-details .details-header .activity-2, .details-header .package-card-details .summary-details .activity-1, .package-card-details .summary-details .details-header .activity-1 {
   margin-left: 20px;
   color: #FFFFFF;
   font-family: "Mulish";
@@ -602,13 +526,14 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.card-highlight .card-1 p, .card-detail .card-1 p, .card-highlight .card-2 p, .card-detail .card-2 p {
+.card-highlight .card-1 p, .card-highlight .card-1 .package-card-details .summary-details .activity-6, .package-card-details .summary-details .card-highlight .card-1 .activity-6, .card-highlight .card-1 .package-card-details .summary-details .activity-5, .package-card-details .summary-details .card-highlight .card-1 .activity-5, .card-highlight .card-1 .package-card-details .summary-details .activity-4, .package-card-details .summary-details .card-highlight .card-1 .activity-4, .card-highlight .card-1 .package-card-details .summary-details .activity-3, .package-card-details .summary-details .card-highlight .card-1 .activity-3, .card-highlight .card-1 .package-card-details .summary-details .activity-2, .package-card-details .summary-details .card-highlight .card-1 .activity-2, .card-highlight .card-1 .package-card-details .summary-details .activity-1, .package-card-details .summary-details .card-highlight .card-1 .activity-1, .card-detail .card-1 p, .card-detail .card-1 .package-card-details .summary-details .activity-6, .package-card-details .summary-details .card-detail .card-1 .activity-6, .card-detail .card-1 .package-card-details .summary-details .activity-5, .package-card-details .summary-details .card-detail .card-1 .activity-5, .card-detail .card-1 .package-card-details .summary-details .activity-4, .package-card-details .summary-details .card-detail .card-1 .activity-4, .card-detail .card-1 .package-card-details .summary-details .activity-3, .package-card-details .summary-details .card-detail .card-1 .activity-3, .card-detail .card-1 .package-card-details .summary-details .activity-2, .package-card-details .summary-details .card-detail .card-1 .activity-2, .card-detail .card-1 .package-card-details .summary-details .activity-1, .package-card-details .summary-details .card-detail .card-1 .activity-1, .card-highlight .card-2 p, .card-highlight .card-2 .package-card-details .summary-details .activity-6, .package-card-details .summary-details .card-highlight .card-2 .activity-6, .card-highlight .card-2 .package-card-details .summary-details .activity-5, .package-card-details .summary-details .card-highlight .card-2 .activity-5, .card-highlight .card-2 .package-card-details .summary-details .activity-4, .package-card-details .summary-details .card-highlight .card-2 .activity-4, .card-highlight .card-2 .package-card-details .summary-details .activity-3, .package-card-details .summary-details .card-highlight .card-2 .activity-3, .card-highlight .card-2 .package-card-details .summary-details .activity-2, .package-card-details .summary-details .card-highlight .card-2 .activity-2, .card-highlight .card-2 .package-card-details .summary-details .activity-1, .package-card-details .summary-details .card-highlight .card-2 .activity-1, .card-detail .card-2 p, .card-detail .card-2 .package-card-details .summary-details .activity-6, .package-card-details .summary-details .card-detail .card-2 .activity-6, .card-detail .card-2 .package-card-details .summary-details .activity-5, .package-card-details .summary-details .card-detail .card-2 .activity-5, .card-detail .card-2 .package-card-details .summary-details .activity-4, .package-card-details .summary-details .card-detail .card-2 .activity-4, .card-detail .card-2 .package-card-details .summary-details .activity-3, .package-card-details .summary-details .card-detail .card-2 .activity-3, .card-detail .card-2 .package-card-details .summary-details .activity-2, .package-card-details .summary-details .card-detail .card-2 .activity-2, .card-detail .card-2 .package-card-details .summary-details .activity-1, .package-card-details .summary-details .card-detail .card-2 .activity-1 {
   display: flex;
   align-items: center;
   font-family: "Mulish";
   font-size: 12px;
   font-style: normal;
   line-height: 15px;
+  color: #333333;
 }
 
 .card-detail {
@@ -625,23 +550,103 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 168px;
   height: 103px;
 }
-.card-detail .details-1 .design p {
+.card-detail .details-1 .design p, .card-detail .details-1 .design .package-card-details .summary-details .activity-6, .package-card-details .summary-details .card-detail .details-1 .design .activity-6, .card-detail .details-1 .design .package-card-details .summary-details .activity-5, .package-card-details .summary-details .card-detail .details-1 .design .activity-5, .card-detail .details-1 .design .package-card-details .summary-details .activity-4, .package-card-details .summary-details .card-detail .details-1 .design .activity-4, .card-detail .details-1 .design .package-card-details .summary-details .activity-3, .package-card-details .summary-details .card-detail .details-1 .design .activity-3, .card-detail .details-1 .design .package-card-details .summary-details .activity-2, .package-card-details .summary-details .card-detail .details-1 .design .activity-2, .card-detail .details-1 .design .package-card-details .summary-details .activity-1, .package-card-details .summary-details .card-detail .details-1 .design .activity-1 {
   margin: 0;
-  font-family: "Mulish";
-  font-size: 12px;
-  font-style: normal;
-  line-height: 15px;
 }
 .card-detail .details-2 {
-  height: 20px;
+  width: 46%;
   display: flex;
 }
-.card-detail .details-2 p {
-  margin: 0;
-  display: flex;
-  align-items: center;
+.card-detail .details-2 p, .card-detail .details-2 .package-card-details .summary-details .activity-6, .package-card-details .summary-details .card-detail .details-2 .activity-6, .card-detail .details-2 .package-card-details .summary-details .activity-5, .package-card-details .summary-details .card-detail .details-2 .activity-5, .card-detail .details-2 .package-card-details .summary-details .activity-4, .package-card-details .summary-details .card-detail .details-2 .activity-4, .card-detail .details-2 .package-card-details .summary-details .activity-3, .package-card-details .summary-details .card-detail .details-2 .activity-3, .card-detail .details-2 .package-card-details .summary-details .activity-2, .package-card-details .summary-details .card-detail .details-2 .activity-2, .card-detail .details-2 .package-card-details .summary-details .activity-1, .package-card-details .summary-details .card-detail .details-2 .activity-1 {
+  width: 216px;
   font-family: "Mulish";
   font-size: 14px;
   font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.package-card-details {
+  width: 100%;
+  height: 34rem;
+  background-color: #FFFFFF;
+}
+.package-card-details .card-head {
+  width: 100%;
+  background-color: #0A223D;
+  display: flex;
+  border-radius: 4px 4px 0px 0px;
+  align-items: center;
+  color: #FFFFFF;
+}
+.package-card-details .card-head h5, .package-card-details .card-head .summary-details .activity-6, .package-card-details .summary-details .card-head .activity-6, .package-card-details .card-head .summary-details .activity-5, .package-card-details .summary-details .card-head .activity-5, .package-card-details .card-head .summary-details .activity-4, .package-card-details .summary-details .card-head .activity-4, .package-card-details .card-head .summary-details .activity-3, .package-card-details .summary-details .card-head .activity-3, .package-card-details .card-head .summary-details .activity-2, .package-card-details .summary-details .card-head .activity-2, .package-card-details .card-head .summary-details .activity-1, .package-card-details .summary-details .card-head .activity-1 {
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.package-card-details .summary-details {
+  width: 1049px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.package-card-details .summary-details .first-three {
+  display: flex;
+  justify-content: space-between;
+  height: 280px;
+  border-bottom: 1px dashed #E0E0E0;
+}
+.package-card-details .summary-details .last-three {
+  display: flex;
+  justify-content: space-between;
+}
+.package-card-details .summary-details h5, .package-card-details .summary-details .activity-6, .package-card-details .summary-details .activity-5, .package-card-details .summary-details .activity-4, .package-card-details .summary-details .activity-3, .package-card-details .summary-details .activity-2, .package-card-details .summary-details .activity-1 {
+  font-family: "Mulish";
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 16px;
+  color: #EC1F46;
+}
+.package-card-details .summary-details p, .package-card-details .summary-details .activity-6, .package-card-details .summary-details .activity-5, .package-card-details .summary-details .activity-4, .package-card-details .summary-details .activity-3, .package-card-details .summary-details .activity-2, .package-card-details .summary-details .activity-1 {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 12px;
   line-height: 15px;
+  color: #333333;
+}
+.package-card-details .summary-details .activity-1 {
+  width: 258px;
+  height: 239px;
+}
+.package-card-details .summary-details .activity-2 {
+  width: 248px;
+  height: 238px;
+}
+.package-card-details .summary-details .activity-3 {
+  width: 238px;
+  height: 233px;
+}
+.package-card-details .summary-details .activity-4 {
+  width: 206px;
+  height: 90px;
+}
+.package-card-details .summary-details .activity-5 {
+  width: 194px;
+  height: 90px;
+}
+.package-card-details .summary-details .activity-6 {
+  width: 233px;
+  height: 90px;
+}
+
+.other-packages {
+  height: 1250px;
+  width: 1440px;
+  background-color: #F5FAFE;
 }
