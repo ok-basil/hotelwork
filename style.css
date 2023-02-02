@@ -89,7 +89,7 @@ a {
   right: 0;
 }
 
-.wrapper, .other-packages, .package-section, .hotel-wrapper {
+.wrapper, .package-section, .hotel-wrapper {
   width: 100%;
 }
 
@@ -117,7 +117,7 @@ a {
   background-color: #FFFFFF;
   height: 500px;
   border-radius: 8px;
-  width: 1110px;
+  width: 100%;
 }
 
 .nav-bg {
@@ -588,7 +588,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   line-height: 18px;
 }
 .package-card-details .summary-details {
-  width: 1049px !important;
+  width: 97%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -645,8 +645,622 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 90px;
 }
 
-.other-packages {
-  height: 1250px;
-  width: 1440px;
-  background-color: #F5FAFE;
+.other-packages-section {
+  width: 100%;
+  height: 100%;
+}
+.other-packages-section .other-package-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 20px;
+}
+.other-packages-section .other-package-wrapper .other-package-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 {
+  display: flex;
+  width: 65%;
+  flex-direction: row;
+  border-radius: 8px 8px 8px 8px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image {
+  width: 49%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image img {
+  height: 100%;
+  width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style {
+  width: 54%;
+  background-color: #0A223D;
+  color: #0A223D;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper {
+  padding-left: 50px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 36px;
+  color: #FFFFFF;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span h4 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room p:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-1:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-2:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-3:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-4:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-5:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-6:nth-of-type(2),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room p:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-1:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-2:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-3:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-4:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-5:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-6:nth-of-type(3) {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .person-room .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 19px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .book-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .book-now span .slashed {
+  text-decoration: line-through;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .book-now span h3 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper span .book-now button {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 50%;
+  height: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  border-radius: 8px 8px 8px 8px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image img {
+  height: 100%;
+  width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 {
+  width: 100%;
+  height: 100%;
+  background-color: #0A223D;
+  color: #FFFFFF;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper {
+  padding-left: 50px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span h4 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room p:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-1:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-2:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-3:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-4:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-5:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-6:nth-of-type(2),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room p:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-1:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-2:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-3:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-4:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-5:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-6:nth-of-type(3) {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .person-room .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .book-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .book-now span .slashed {
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .book-now span h3 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper span .book-now button {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 50%;
+  height: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  background-color: #0A223D;
+  color: #FFFFFF;
+  border-radius: 8px 8px 8px 8px;
+  height: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image img {
+  height: 100%;
+  width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 {
+  width: 100%;
+  height: 30%;
+  background-color: #0A223D;
+  color: #0A223D;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper {
+  padding-left: 50px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 36px;
+  color: #FFFFFF;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span h4 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room p:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-1:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-2:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-3:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-4:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-5:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-6:nth-of-type(2),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room p:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-1:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-2:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-3:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-4:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-5:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-6:nth-of-type(3) {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .person-room .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .book-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .book-now span .slashed {
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .book-now span h3 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span .book-now button {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 50%;
+  height: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  background-color: #0A223D;
+  border-radius: 8px 8px 8px 8px;
+  height: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image {
+  height: 247px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image img {
+  height: 100%;
+  width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 {
+  width: 100%;
+  height: 30%;
+  background-color: #0A223D;
+  color: #FFFFFF;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper {
+  padding-left: 50px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span h4 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room p:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-1:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-2:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-3:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-4:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-5:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-6:nth-of-type(2),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room p:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-1:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-2:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-3:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-4:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-5:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-6:nth-of-type(3) {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .person-room .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .book-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .book-now span .slashed {
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .book-now span h3 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span .book-now button {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 50%;
+  height: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  background-color: #EC1F46;
+  border-radius: 8px 8px 8px 8px;
+  height: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image {
+  height: 247px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image img {
+  height: 100%;
+  width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 {
+  width: 100%;
+  height: 30%;
+  background-color: #0A223D;
+  color: #FFFFFF;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper {
+  padding-left: 50px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span h4 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room p:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-1:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-2:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-3:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-4:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-5:nth-of-type(2), .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(2), .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-6:nth-of-type(2),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room p:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-1:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-1:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-2:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-2:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-3:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-3:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-4:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-4:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-5:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-5:nth-of-type(3),
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-6:nth-of-type(3),
+.package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-6:nth-of-type(3) {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .person-room .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .book-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .book-now span .slashed {
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .book-now span h3 {
+  margin-top: 0;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span .book-now button {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 50%;
+  height: 40px;
+}
+
+.guest-review-section {
+  width: 100%;
+  height: 100%;
+}
+.guest-review-section .guest-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+.guest-review-section .guest-wrapper span h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+}
+.guest-review-section .guest-wrapper .guest-card-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.guest-review-section .guest-wrapper .guest-card-style span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guest-review-section .guest-wrapper .guest-card-style span img {
+  width: 100%;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder {
+  background-color: #FFFFFF;
+  width: 73%;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  position: relative;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+  text-align: justify;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-6 {
+  margin-top: 0;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section {
+  width: 100%;
+  height: 100%;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper span h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style span img {
+  width: 100%;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder {
+  background-color: #FFFFFF !important;
+  width: 73%;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  position: relative;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-6 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+  text-align: justify;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-6 {
+  margin-top: 0;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph {
+  width: 80%;
+  position: relative;
+  position: absolute;
+  top: -120px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph img:nth-of-type(1) {
+  position: absolute;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-6 {
+  margin-top: 0;
 }
