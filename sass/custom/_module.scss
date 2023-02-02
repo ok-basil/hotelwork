@@ -647,6 +647,7 @@ ul.breadcrumb li+li:before {
             justify-content: space-between;
             flex-direction: row;
             gap: 20px;
+            padding-bottom: 54px;
 
             .wrapp1 {
                 display: flex;
@@ -658,10 +659,24 @@ ul.breadcrumb li+li:before {
 
                 .wrapp-image {
                     width: 49%;
+                    position: relative;
 
                     img {
                         height: 100%;
                         width: 100%;
+                    }
+                    span {
+                        background-color: $tertiary-color;
+                        color: $primary-color;
+                        width: 95px;
+                        height: 40px;
+                        border: none;
+                        border-radius: 4px;
+                        left: 0;
+                        top: 20px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
 
@@ -743,6 +758,7 @@ ul.breadcrumb li+li:before {
                                     color: $primary-color;
                                     width: 50%;
                                     height: 40px;
+                                    border: none;
                                 }
                             }
                         }
@@ -759,10 +775,25 @@ ul.breadcrumb li+li:before {
                 border-radius: 8px 8px 8px 8px;
 
                 .wrapp2-image {
+                    position: relative;
 
                     img {
                         height: 100%;
                         width: 100%;
+                    }
+
+                    span {
+                        background-color: $tertiary-color;
+                        color: $primary-color;
+                        width: 95px;
+                        height: 40px;
+                        border: none;
+                        border-radius: 4px;
+                        left: 0;
+                        top: 20px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
 
@@ -841,6 +872,7 @@ ul.breadcrumb li+li:before {
                                     color: $primary-color;
                                     width: 50%;
                                     height: 40px;
+                                    border: none;
                                 }
                             }
                         }
@@ -860,27 +892,42 @@ ul.breadcrumb li+li:before {
                 height: 100%;
 
                 .wrapp3-image {
+                    position: relative;
 
                     img {
                         height: 100%;
                         width: 100%;
+                    }
+
+                    span {
+                        background-color: $tertiary-color;
+                        color: $primary-color;
+                        width: 95px;
+                        height: 40px;
+                        border: none;
+                        border-radius: 4px;
+                        left: 0;
+                        top: 20px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
 
                 .advisor-style3 {
 
                     width: 100%;
-                    height: 30%;
+                    height: 100%;
                     background-color: $secondary-color;
                     color: $secondary-color;
 
                     .style-wrapper {
-                        padding-left: 50px;
+                        padding-left: 30px;
                         padding-right: 20px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        margin-top: $largest-sizing;
+                        margin-top: 48px;
                         color: $primary-color;
 
 
@@ -964,11 +1011,26 @@ ul.breadcrumb li+li:before {
                 height: 100%;
 
                 .wrapp4-image {
-                    height: 247px;
+                    height: 237px;
+                    position: relative;
 
                     img {
                         height: 100%;
                         width: 100%;
+                    }
+
+                    span {
+                        background-color: $tertiary-color;
+                        color: $primary-color;
+                        width: 95px;
+                        height: 40px;
+                        border: none;
+                        border-radius: 4px;
+                        left: 0;
+                        top: 20px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
 
@@ -976,17 +1038,17 @@ ul.breadcrumb li+li:before {
                 .advisor-style4 {
 
                     width: 100%;
-                    height: 30%;
+                    height: 100%;
                     background-color: $secondary-color;
                     color: $primary-color;
 
                     .style-wrapper {
-                        padding-left: 50px;
+                        padding-left: 30px;
                         padding-right: 20px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        margin-top: $largest-sizing;
+                        margin-top: 47px;
 
 
                         span {
@@ -1078,11 +1140,26 @@ ul.breadcrumb li+li:before {
 
 
                 .wrapp5-image {
-                    height: 247px;
+                    height: 237px;
+                    position: relative;
 
                     img {
                         height: 100%;
                         width: 100%;
+                    }
+
+                    span {
+                        background-color: $tertiary-color;
+                        color: $primary-color;
+                        width: 95px;
+                        height: 40px;
+                        border: none;
+                        border-radius: 4px;
+                        left: 0;
+                        top: 20px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
 
@@ -1090,17 +1167,17 @@ ul.breadcrumb li+li:before {
                 .advisor-style5 {
 
                     width: 100%;
-                    height: 30%;
+                    height: 100%;
                     background-color: $secondary-color;
                     color: $primary-color;
 
                     .style-wrapper {
-                        padding-left: 50px;
+                        padding-left: 30px;
                         padding-right: 20px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        margin-top: $largest-sizing;
+                        margin-top: 46px;
 
 
                         span {
@@ -1408,6 +1485,7 @@ ul.breadcrumb li+li:before {
 
     .text {
         width: 30%;
+        color: $primary-color;
 
         span {
             h2 {

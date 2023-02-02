@@ -668,6 +668,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   justify-content: space-between;
   flex-direction: row;
   gap: 20px;
+  padding-bottom: 54px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 {
   display: flex;
@@ -677,10 +678,24 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image {
   width: 49%;
+  position: relative;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image img {
   height: 100%;
   width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  left: 0;
+  top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style {
   width: 54%;
@@ -754,6 +769,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   color: #FFFFFF;
   width: 50%;
   height: 40px;
+  border: none;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 {
   display: flex;
@@ -761,9 +777,25 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   flex-direction: column;
   border-radius: 8px 8px 8px 8px;
 }
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image {
+  position: relative;
+}
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image img {
   height: 100%;
   width: 100%;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  left: 0;
+  top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 {
   width: 100%;
@@ -836,6 +868,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   color: #FFFFFF;
   width: 50%;
   height: 40px;
+  border: none;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 {
   display: flex;
@@ -846,23 +879,39 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   border-radius: 8px 8px 8px 8px;
   height: 100%;
 }
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image {
+  position: relative;
+}
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image img {
   height: 100%;
   width: 100%;
 }
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  left: 0;
+  top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 {
   width: 100%;
-  height: 30%;
+  height: 100%;
   background-color: #0A223D;
   color: #0A223D;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 36px;
+  margin-top: 48px;
   color: #FFFFFF;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper span h4 {
@@ -933,25 +982,39 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 100%;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image {
-  height: 247px;
+  height: 237px;
+  position: relative;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image img {
   height: 100%;
   width: 100%;
 }
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  left: 0;
+  top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 {
   width: 100%;
-  height: 30%;
+  height: 100%;
   background-color: #0A223D;
   color: #FFFFFF;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 36px;
+  margin-top: 47px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper span h4 {
   margin-top: 0;
@@ -1021,25 +1084,39 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 100%;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image {
-  height: 247px;
+  height: 237px;
+  position: relative;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image img {
   height: 100%;
   width: 100%;
 }
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  left: 0;
+  top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 {
   width: 100%;
-  height: 30%;
+  height: 100%;
   background-color: #0A223D;
   color: #FFFFFF;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 36px;
+  margin-top: 46px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper span h4 {
   margin-top: 0;
@@ -1291,6 +1368,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .news-wrap .text {
   width: 30%;
+  color: #FFFFFF;
 }
 .news-wrap .text span h2 {
   margin-top: 0;
