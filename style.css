@@ -922,6 +922,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   color: #FFFFFF;
   width: 50%;
   height: 40px;
+  border: none;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 {
   display: flex;
@@ -1009,6 +1010,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   color: #FFFFFF;
   width: 50%;
   height: 40px;
+  border: none;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 {
   display: flex;
@@ -1096,6 +1098,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   color: #FFFFFF;
   width: 50%;
   height: 40px;
+  border: none;
 }
 
 .guest-review-section {
@@ -1247,7 +1250,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -50px;
+  top: -20px;
 }
 .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-6 {
   margin-top: 0;
@@ -1263,4 +1266,315 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-6 {
   margin-top: 0;
+}
+
+.newsletter-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/img/newsletter.png"), linear-gradient(rgba(10, 34, 61, 0.8), rgba(10, 34, 61, 0.8));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:  94px 0 87px;
+}
+
+.news-wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.news-wrap .text {
+  width: 30%;
+}
+.news-wrap .text span h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.search {
+  display: flex;
+}
+.search .search-input {
+  width: 350px;
+  height: 40px;
+  padding-left: 20px;
+  color: #333333;
+  background-color: #F5FAFE;
+  border-radius: 6px;
+  border: none;
+}
+.search .search-button {
+  border: none;
+  cursor: pointer;
+  width: 65px;
+  height: 40px;
+  padding: 0px;
+  background-color: #EC1F46;
+  color: #FFFFFF;
+}
+
+.other-activities {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 80px;
+  padding-top: 20px;
+}
+
+.activities-wrapper .activities-wrapper .activities-header h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.activities-wrapper .activities-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.activities-wrapper .card1 {
+  width: 23%;
+  height: 33vh;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/img/act1.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.activities-wrapper .card1 span {
+  padding-left: 30px;
+  margin-top: 85px;
+}
+.activities-wrapper .card1 span h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  width: 145px;
+}
+.activities-wrapper .card2 {
+  width: 23%;
+  height: 33vh;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/img/act2.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.activities-wrapper .card2 span {
+  padding-left: 30px;
+  margin-top: 85px;
+}
+.activities-wrapper .card2 span h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  width: 175px;
+}
+.activities-wrapper .card3 {
+  width: 23%;
+  height: 33vh;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/img/act3.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.activities-wrapper .card3 span {
+  padding-left: 30px;
+  margin-top: 65px;
+}
+.activities-wrapper .card3 span h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  width: 170px;
+}
+.activities-wrapper .card4 {
+  width: 23%;
+  height: 33vh;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/img/act4.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.activities-wrapper .card4 span {
+  padding-left: 30px;
+  margin-top: 85px;
+}
+.activities-wrapper .card4 span h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  width: 210px;
+}
+.activities-wrapper h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: "Mulish";
+  color: #FFFFFF;
+}
+.activities-wrapper button {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  align-items: flex-start;
+}
+
+.footer-section {
+  background-color: #0A223D;
+  width: 100%;
+  height: 100%;
+}
+.footer-section .footer-holder {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.footer-section .footer-holder .best-tour-plan2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-section .footer-holder .all-categories span h4 {
+  color: #FFFFFF;
+}
+.footer-section .footer-holder .all-categories span p, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-1, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-2, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-3, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-4, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-5, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-6 {
+  color: #BDBDBD;
+}
+.footer-section .footer-holder .all-categories span p a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-1 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-1 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-2 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-2 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-3 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-3 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-4 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-4 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-5 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-5 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-6 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-6 a {
+  color: #BDBDBD;
+}
+.footer-section .footer-holder .all-categories .social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.footer-section .contact-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-section .contact-section .details {
+  width: 50%;
+}
+.footer-section .contact-section .details span {
+  color: #FFFFFF;
+}
+.footer-section .contact-section .details span h4 {
+  color: #FFFFFF;
+}
+.footer-section .contact-section .details span h4 p a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-1 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-1 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-2 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-2 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-3 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-3 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-4 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-4 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-5 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-5 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-6 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-6 a {
+  color: #BDBDBD;
+}
+.footer-section .contact-section span p, .footer-section .contact-section span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .contact-section span .activity-1, .footer-section .contact-section span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .contact-section span .activity-2, .footer-section .contact-section span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .contact-section span .activity-3, .footer-section .contact-section span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .contact-section span .activity-4, .footer-section .contact-section span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .contact-section span .activity-5, .footer-section .contact-section span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .contact-section span .activity-6 {
+  color: #BDBDBD;
+  display: flex;
+  align-items: center;
+}
+.footer-section .contact-section span p img a, .footer-section .contact-section span .package-card-details .summary-details .activity-1 img a, .package-card-details .summary-details .footer-section .contact-section span .activity-1 img a, .footer-section .contact-section span .package-card-details .summary-details .activity-2 img a, .package-card-details .summary-details .footer-section .contact-section span .activity-2 img a, .footer-section .contact-section span .package-card-details .summary-details .activity-3 img a, .package-card-details .summary-details .footer-section .contact-section span .activity-3 img a, .footer-section .contact-section span .package-card-details .summary-details .activity-4 img a, .package-card-details .summary-details .footer-section .contact-section span .activity-4 img a, .footer-section .contact-section span .package-card-details .summary-details .activity-5 img a, .package-card-details .summary-details .footer-section .contact-section span .activity-5 img a, .footer-section .contact-section span .package-card-details .summary-details .activity-6 img a, .package-card-details .summary-details .footer-section .contact-section span .activity-6 img a {
+  color: #BDBDBD;
+}
+.footer-section .contact-form-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+.footer-section .contact-form-section span h4 {
+  color: #FFFFFF;
+}
+.footer-section .contact-form-section .contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+}
+.footer-section .contact-form-section .contact-form .first-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer-section .contact-form-section .contact-form .first-form .name-input, .footer-section .contact-form-section .contact-form .first-form .number-input {
+  width: 255px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+.footer-section .contact-form-section .contact-form .second-form {
+  width: 100%;
+  display: flex;
+}
+.footer-section .contact-form-section .contact-form .second-form .message-input {
+  width: 100%;
+  height: 123px;
+  padding-left: 20px;
+}
+.footer-section .contact-form-section .contact-form .submit-button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer-section .contact-form-section .contact-form .submit-button button {
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+}
+.footer-section .contact-form-section .contact-form .submit-button p, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-1, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-2, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-3, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-4, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-5, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-6 {
+  color: #FFFFFF;
+}
+.footer-section .last-section {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 36px;
+  padding-bottom: 20px;
+}
+.footer-section .last-section span {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 40%;
+}
+.footer-section .last-section span p, .footer-section .last-section span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .last-section span .activity-1, .footer-section .last-section span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .last-section span .activity-2, .footer-section .last-section span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .last-section span .activity-3, .footer-section .last-section span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .last-section span .activity-4, .footer-section .last-section span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .last-section span .activity-5, .footer-section .last-section span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .last-section span .activity-6 {
+  color: #FFFFFF;
+}
+.footer-section .last-section span {
+  display: flex;
+  justify-content: flex-end;
 }
