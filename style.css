@@ -1302,7 +1302,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 
 .newsletter-section {
   width: 100%;
-  height: 100%;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1310,7 +1310,6 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 94px, 0px, 87px;
   box-sizing: border-box;
 }
 
@@ -1342,7 +1341,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   padding-left: 20px;
   color: #333333;
   background-color: #F5FAFE;
-  border-radius: 6px;
+  border-radius: 4px;
   border: none;
 }
 .search .search-button {
@@ -1353,6 +1352,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   padding: 0px;
   background-color: #EC1F46;
   color: #FFFFFF;
+  border-radius: 0px 4px 4px 0px;
 }
 
 .other-activities {
@@ -1362,20 +1362,24 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   padding-top: 20px;
 }
 
-.activities-wrapper .activities-wrapper .activities-header h3 {
+.site-wrapper .activities-wrapper {
+  margin-top: 60px;
+}
+.site-wrapper .activities-wrapper .activities-header h2 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+  font-size: 24px !important;
 }
-.activities-wrapper .activities-cards {
+.site-wrapper .activities-cards {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-.activities-wrapper .card1 {
+.site-wrapper .card1 {
   width: 23%;
-  height: 33vh;
+  height: 255px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -1385,20 +1389,20 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.activities-wrapper .card1 span {
+.site-wrapper .card1 span {
   padding-left: 30px;
   margin-top: 85px;
 }
-.activities-wrapper .card1 span h3 {
+.site-wrapper .card1 span h3 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
   width: 145px;
 }
-.activities-wrapper .card2 {
+.site-wrapper .card2 {
   width: 23%;
-  height: 33vh;
+  height: 255px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -1408,20 +1412,20 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.activities-wrapper .card2 span {
+.site-wrapper .card2 span {
   padding-left: 30px;
   margin-top: 85px;
 }
-.activities-wrapper .card2 span h3 {
+.site-wrapper .card2 span h3 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
   width: 175px;
 }
-.activities-wrapper .card3 {
+.site-wrapper .card3 {
   width: 23%;
-  height: 33vh;
+  height: 255px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -1431,20 +1435,20 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.activities-wrapper .card3 span {
+.site-wrapper .card3 span {
   padding-left: 30px;
-  margin-top: 65px;
+  margin-top: 85px;
 }
-.activities-wrapper .card3 span h3 {
+.site-wrapper .card3 span h3 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
   width: 170px;
 }
-.activities-wrapper .card4 {
+.site-wrapper .card4 {
   width: 23%;
-  height: 33vh;
+  height: 255px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -1454,25 +1458,25 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.activities-wrapper .card4 span {
+.site-wrapper .card4 span {
   padding-left: 30px;
   margin-top: 85px;
 }
-.activities-wrapper .card4 span h3 {
+.site-wrapper .card4 span h3 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
   width: 210px;
 }
-.activities-wrapper h3 {
+.site-wrapper h3 {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
   font-family: "Mulish";
   color: #FFFFFF;
 }
-.activities-wrapper button {
+.site-wrapper button {
   background-color: #EC1F46;
   color: #FFFFFF;
   width: 100px;
@@ -1503,6 +1507,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .footer-section .footer-holder .all-categories span p, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-1, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-2, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-3, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-4, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-5, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-6 {
   color: #BDBDBD;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 .footer-section .footer-holder .all-categories span p a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-1 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-1 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-2 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-2 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-3 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-3 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-4 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-4 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-5 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-5 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-6 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-6 a {
   color: #BDBDBD;
@@ -1541,7 +1547,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .footer-section .contact-form-section {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 52%;
   justify-content: space-between;
 }
 .footer-section .contact-form-section span h4 {
@@ -1566,6 +1572,12 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #FFFFFF;
   border-radius: 4px;
   padding-left: 20px;
+  border: none;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
 }
 .footer-section .contact-form-section .contact-form .second-form {
   width: 100%;
@@ -1611,4 +1623,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .footer-section .last-section span {
   display: flex;
   justify-content: flex-end;
+}
+.footer-section .last-section span img {
+  width: 85px;
+  height: 17px;
 }
