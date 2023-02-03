@@ -934,7 +934,7 @@ ul.breadcrumb li+li:before {
                     position: relative;
 
                     img {
-                        height: 100%;
+                        height: 109%;
                         width: 100%;
                     }
 
@@ -1306,6 +1306,8 @@ ul.breadcrumb li+li:before {
 .guest-review-section {
     width: 100%;
     height: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
 
     .guest-wrapper {
         display: flex;
@@ -1335,6 +1337,7 @@ ul.breadcrumb li+li:before {
             justify-content: space-between;
             padding-left: 20px;
             padding-right: 20px;
+            margin-top: 40px;
 
             span {
                 display: flex;
