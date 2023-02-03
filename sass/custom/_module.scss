@@ -1522,7 +1522,7 @@ ul.breadcrumb li+li:before {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: url("assets/img/act1.png");
+        background-image: url("assets/img/act1.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1548,7 +1548,7 @@ ul.breadcrumb li+li:before {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: url("assets/img/act2.png");
+        background-image: url("assets/img/act2.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1574,7 +1574,7 @@ ul.breadcrumb li+li:before {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: url("assets/img/act3.png");
+        background-image: url("assets/img/act3.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1600,7 +1600,7 @@ ul.breadcrumb li+li:before {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: url("assets/img/act4.png");
+        background-image: url("assets/img/act4.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1729,7 +1729,7 @@ ul.breadcrumb li+li:before {
     .contact-form-section {
         display: flex;
         flex-direction: column;
-        width: 52%;
+        width: 51%;
         justify-content: space-between;
 
         span {
