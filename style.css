@@ -606,6 +606,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   display: flex;
   justify-content: space-between;
   height: 280px;
+  padding-bottom: 20px;
   border-bottom: 1px dashed #E0E0E0;
 }
 .package-card-details .summary-details .last-three {
@@ -619,12 +620,19 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   line-height: 16px;
   color: #EC1F46;
 }
-.package-card-details .summary-details p, .package-card-details .summary-details .activity-6, .package-card-details .summary-details .activity-5, .package-card-details .summary-details .activity-4, .package-card-details .summary-details .activity-3, .package-card-details .summary-details .activity-2, .package-card-details .summary-details .activity-1 {
+.package-card-details .summary-details .first {
+  display: flex;
+  flex-direction: column;
+}
+.package-card-details .summary-details .first p, .package-card-details .summary-details .first .activity-6, .package-card-details .summary-details .first .activity-5, .package-card-details .summary-details .first .activity-4, .package-card-details .summary-details .first .activity-3, .package-card-details .summary-details .first .activity-2, .package-card-details .summary-details .first .activity-1 {
+  display: flex;
+  align-items: center;
   font-family: "Mulish";
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   color: #333333;
+  align-items: center;
 }
 .package-card-details .summary-details .activity-1 {
   width: 258px;
@@ -666,6 +674,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper {
   width: 100%;
@@ -696,7 +706,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 95px;
   height: 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 20px;
   position: absolute;
@@ -776,6 +786,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 50%;
   height: 40px;
   border: none;
+  border-radius: 4px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 {
   display: flex;
@@ -796,7 +807,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 95px;
   height: 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 20px;
   position: absolute;
@@ -875,6 +886,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 50%;
   height: 40px;
   border: none;
+  border-radius: 4px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 {
   display: flex;
@@ -898,7 +910,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 95px;
   height: 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 20px;
   position: absolute;
@@ -978,6 +990,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 50%;
   height: 40px;
   border: none;
+  border-radius: 4px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 {
   display: flex;
@@ -1001,7 +1014,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 95px;
   height: 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 20px;
   position: absolute;
@@ -1080,6 +1093,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 50%;
   height: 40px;
   border: none;
+  border-radius: 4px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 {
   display: flex;
@@ -1103,7 +1117,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 95px;
   height: 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 20px;
   position: absolute;
@@ -1182,6 +1196,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 50%;
   height: 40px;
   border: none;
+  border-radius: 4px;
 }
 
 .guest-review-section {

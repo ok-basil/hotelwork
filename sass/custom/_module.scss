@@ -573,6 +573,7 @@ ul.breadcrumb li+li:before {
             display: flex;
             justify-content: space-between;
             height: 280px;
+            padding-bottom: 20px;
             border-bottom: 1px dashed #E0E0E0;
         }
         
@@ -588,13 +589,21 @@ ul.breadcrumb li+li:before {
             line-height: calc($large-sizing - 2px);
             color: $tertiary-color;
         }
+        
+        .first {
+            display: flex;
+            flex-direction: column;
 
-        p {
-            font-family: 'Mulish';
-            font-weight: 400;
-            font-size: $smaller-sizing;
-            line-height: calc($normal-sizing + 1px);
-            color: $header-color;
+            p {
+                display: flex;
+                align-items: center;
+                font-family: 'Mulish';
+                font-weight: 400;
+                font-size: $smaller-sizing;
+                line-height: calc($normal-sizing + 1px);
+                color: $header-color;
+                align-items: center;
+            }
         }
 
         .activity-1 {
@@ -660,6 +669,8 @@ ul.breadcrumb li+li:before {
             display: flex;
             justify-content: center;
             width: 100%;
+            padding-top: 50px;
+            padding-bottom: 10px;
 
         }
 
@@ -695,7 +706,7 @@ ul.breadcrumb li+li:before {
                         width: 95px;
                         height: 40px;
                         border: none;
-                        border-radius: 4px;
+                        border-radius: 0px 4px 4px 0px;
                         left: 0;
                         top: 20px;
                         position: absolute;
@@ -783,6 +794,7 @@ ul.breadcrumb li+li:before {
                                     width: 50%;
                                     height: 40px;
                                     border: none;
+                                    border-radius: 4px;
                                 }
                             }
                         }
@@ -812,7 +824,7 @@ ul.breadcrumb li+li:before {
                         width: 95px;
                         height: 40px;
                         border: none;
-                        border-radius: 4px;
+                        border-radius: 0px 4px 4px 0px;
                         left: 0;
                         top: 20px;
                         position: absolute;
@@ -897,6 +909,7 @@ ul.breadcrumb li+li:before {
                                     width: 50%;
                                     height: 40px;
                                     border: none;
+                                    border-radius: 4px;
                                 }
                             }
                         }
@@ -929,7 +942,7 @@ ul.breadcrumb li+li:before {
                         width: 95px;
                         height: 40px;
                         border: none;
-                        border-radius: 4px;
+                        border-radius: 0px 4px 4px 0px;
                         left: 0;
                         top: 20px;
                         position: absolute;
@@ -1018,6 +1031,7 @@ ul.breadcrumb li+li:before {
                                     width: 50%;
                                     height: 40px;
                                     border: none;
+                                    border-radius: 4px;
                                 }
                             }
                         }
@@ -1049,7 +1063,7 @@ ul.breadcrumb li+li:before {
                         width: 95px;
                         height: 40px;
                         border: none;
-                        border-radius: 4px;
+                        border-radius: 0px 4px 4px 0px;
                         left: 0;
                         top: 20px;
                         position: absolute;
@@ -1142,6 +1156,7 @@ ul.breadcrumb li+li:before {
                                     width: 50%;
                                     height: 40px;
                                     border: none;
+                                    border-radius: 4px;
                                 }
                             }
                         }
@@ -1178,7 +1193,7 @@ ul.breadcrumb li+li:before {
                         width: 95px;
                         height: 40px;
                         border: none;
-                        border-radius: 4px;
+                        border-radius: 0px 4px 4px 0px;
                         left: 0;
                         top: 20px;
                         position: absolute;
@@ -1271,6 +1286,7 @@ ul.breadcrumb li+li:before {
                                     width: 50%;
                                     height: 40px;
                                     border: none;
+                                    border-radius: 4px;
                                 }
                             }
                         }
