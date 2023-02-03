@@ -434,7 +434,7 @@ ul.breadcrumb li+li:before {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 24px
+    gap: 24px;
 
     h3 {
         margin-bottom: 0;
@@ -520,15 +520,17 @@ ul.breadcrumb li+li:before {
     .details-2 {
         width: 46%;
         display: flex;
+        justify-content: center;
 
         p {
             width: 216px;
-
+            display: flex;
             font-family: 'Mulish';
             font-size: $normal-sizing;
             font-style: normal;
             font-weight: 400;
             line-height: $large-sizing;
+            margin: 0;
         }
     }
 }
