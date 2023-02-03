@@ -1607,7 +1607,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: #333333;
 }
 .footer-section .contact-form-section .contact-form .second-form {
   width: 100%;
@@ -1630,6 +1630,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 50px;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 .footer-section .contact-form-section .contact-form .submit-button p, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-1, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-2, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-3, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-4, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-5, .footer-section .contact-form-section .contact-form .submit-button .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .contact-form-section .contact-form .submit-button .activity-6 {
   color: #FFFFFF;
