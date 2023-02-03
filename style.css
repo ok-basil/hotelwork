@@ -210,6 +210,9 @@ a {
   align-items: center;
   gap: 30px;
 }
+.nav-main .menu .button-menu-span {
+  margin-left: -37px;
+}
 .nav-main .menu .button-menu {
   background: none;
   cursor: pointer;
