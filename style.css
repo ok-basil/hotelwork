@@ -713,7 +713,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #EC1F46;
   color: #FFFFFF;
   width: 95px;
-  height: 40px;
+  height: 28px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -721,6 +721,10 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   position: absolute;
   display: flex;
   justify-content: center;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .wrapp-image span .activity-6 {
+  display: flex;
+  align-items: center;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style {
   width: 54%;
@@ -815,7 +819,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #EC1F46;
   color: #FFFFFF;
   width: 95px;
-  height: 40px;
+  height: 28px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -823,6 +827,10 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   position: absolute;
   display: flex;
   justify-content: center;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span .activity-6 {
+  display: flex;
+  align-items: center;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 {
   width: 100%;
@@ -918,7 +926,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #EC1F46;
   color: #FFFFFF;
   width: 95px;
-  height: 40px;
+  height: 28px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -926,6 +934,10 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   position: absolute;
   display: flex;
   justify-content: center;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span .activity-6 {
+  display: flex;
+  align-items: center;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 {
   width: 100%;
@@ -1022,7 +1034,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #EC1F46;
   color: #FFFFFF;
   width: 95px;
-  height: 40px;
+  height: 28px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -1030,6 +1042,10 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   position: absolute;
   display: flex;
   justify-content: center;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span .activity-6 {
+  display: flex;
+  align-items: center;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 {
   width: 100%;
@@ -1125,7 +1141,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #EC1F46;
   color: #FFFFFF;
   width: 95px;
-  height: 40px;
+  height: 28px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -1133,6 +1149,10 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   position: absolute;
   display: flex;
   justify-content: center;
+}
+.other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span p, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .activity-1, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .activity-2, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .activity-3, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .activity-4, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .activity-5, .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span .activity-6 {
+  display: flex;
+  align-items: center;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 {
   width: 100%;
