@@ -897,7 +897,6 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #0A223D;
   color: #FFFFFF;
   border-radius: 8px 8px 8px 8px;
-  height: 100%;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image {
   position: relative;
@@ -1001,7 +1000,6 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   flex-direction: column;
   background-color: #0A223D;
   border-radius: 8px 8px 8px 8px;
-  height: 100%;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image {
   height: 237px;
@@ -1105,7 +1103,6 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   flex-direction: column;
   background-color: #EC1F46;
   border-radius: 8px 8px 8px 8px;
-  height: 100%;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image {
   height: 237px;
