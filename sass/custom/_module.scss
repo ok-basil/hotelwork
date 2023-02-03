@@ -1317,6 +1317,7 @@ ul.breadcrumb li+li:before {
         gap: 30px;
 
         span {
+
             h2 {
                 display: flex;
                 justify-content: center;
@@ -1369,18 +1370,6 @@ ul.breadcrumb li+li:before {
                     flex-direction: column;
                     padding: 70px;
 
-                    p {
-                        font-family: 'Mulish';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 12px;
-                        line-height: 160%;
-                        /* or 19px */
-
-                        text-align: justify;
-                    }
-
-
                     .ellipse-container {
                         display: flex;
                         flex-direction: column;
@@ -1389,116 +1378,42 @@ ul.breadcrumb li+li:before {
                         position: relative;
                         top: -50px;
 
-                        p {
+                        p:nth-of-type(1) {
+                            font-family: 'Mulish';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 160%;
+                            /* or 19px */
+        
+                            text-align: justify;
                             margin-top: 0;
+                            color: $tertiary-color;
                         }
-                    }
-
-                    .guest-review-section {
-                        width: 100%;
-                        height: 100%;
-
-                    .guest-wrapper {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        width: 100%;
-                        gap: 30px;
-
-                        span {
-                            h2 {
-                                display: flex;
-                                justify-content: center;
-                                width: 100%;
-                                text-transform: uppercase;
-                                font-family: 'Mulish';
-                                font-style: normal;
-                                font-weight: 700;
-                                font-size: 36px;
-                                line-height: 45px;
-                                text-align: center;
-                            }
+        
+                        p:nth-of-type(2) {
+                            font-family: 'Mulish';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: $smallest-sizing;
+                            line-height: 13px;
                         }
 
-                        .guest-card-style {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            padding-left: 20px;
-                            padding-right: 20px;
+                        .review-paragraph {
+                            width: 80%;
+                            position: relative;
 
-                            span {
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-
-                                img {
-                                    width: 100%;
-                                }
+                            
+                            img:nth-of-type(1) {
+                                position: absolute;
                             }
 
-                            .holder {
-                                background-color: $primary-color!important;
-                                width: 73%;
-                                height: 280px;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                flex-direction: column;
-                                padding-bottom: 20px;
-                                position: relative;
+                                position: absolute;
+                                top: -120px;
+                            
 
-                                .wrapp-review {
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    flex-direction: column;
-                                    padding: 70px;
-
-                                    p {
-                                        font-family: 'Mulish';
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        font-size: 12px;
-                                        line-height: 160%;
-                                        /* or 19px */
-
-                                        text-align: justify;
-                                    }
-
-
-                                    .ellipse-container {
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: center;
-                                        align-items: center;
-                                        position: relative;
-                                        top: -20px;
-
-                                        p {
-                                            margin-top: 0;
-                                        }
-                                    }
-
-                                    .review-paragraph {
-                                        width: 80%;
-                                        position: relative;
-
-                                        
-                                        img:nth-of-type(1) {
-                                            position: absolute;
-                                        }
-
-                                            position: absolute;
-                                            top: -120px;
-                                        
-
-                                        p {
-                                            margin-top: 0;
-                                        }
-                                    }
-                                }
+                            p {
+                                margin-top: 0;
                             }
                         }
                     }
@@ -1507,7 +1422,7 @@ ul.breadcrumb li+li:before {
         }
     }
 }
-}
+
 
 .newsletter-section {
     width: 100%;
@@ -1519,7 +1434,7 @@ ul.breadcrumb li+li:before {
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 94px 0 87px;
+    padding: 94px, 0px, 87px;
     box-sizing: border-box;
 
 }

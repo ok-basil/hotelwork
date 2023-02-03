@@ -1261,15 +1261,6 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   flex-direction: column;
   padding: 70px;
 }
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-6 {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 160%;
-  /* or 19px */
-  text-align: justify;
-}
 .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container {
   display: flex;
   flex-direction: column;
@@ -1278,67 +1269,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   position: relative;
   top: -50px;
 }
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-6 {
-  margin-top: 0;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section {
-  width: 100%;
-  height: 100%;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  gap: 30px;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper span h2 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  text-transform: uppercase;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 45px;
-  text-align: center;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style span img {
-  width: 100%;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder {
-  background-color: #FFFFFF !important;
-  width: 73%;
-  height: 280px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 20px;
-  position: relative;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 70px;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .activity-6 {
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container p:nth-of-type(1), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-1:nth-of-type(1), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-1:nth-of-type(1), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-2:nth-of-type(1), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-2:nth-of-type(1), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-3:nth-of-type(1), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-3:nth-of-type(1), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-4:nth-of-type(1), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-4:nth-of-type(1), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-5:nth-of-type(1), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-5:nth-of-type(1), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-6:nth-of-type(1), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-6:nth-of-type(1) {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
@@ -1346,28 +1277,26 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   line-height: 160%;
   /* or 19px */
   text-align: justify;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: -20px;
-}
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-6 {
   margin-top: 0;
+  color: #EC1F46;
 }
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph {
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container p:nth-of-type(2), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-1:nth-of-type(2), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-1:nth-of-type(2), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-2:nth-of-type(2), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-2:nth-of-type(2), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-3:nth-of-type(2), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-3:nth-of-type(2), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-4:nth-of-type(2), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-4:nth-of-type(2), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-5:nth-of-type(2), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-5:nth-of-type(2), .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .package-card-details .summary-details .activity-6:nth-of-type(2), .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .activity-6:nth-of-type(2) {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+}
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph {
   width: 80%;
   position: relative;
   position: absolute;
   top: -120px;
 }
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph img:nth-of-type(1) {
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph img:nth-of-type(1) {
   position: absolute;
 }
-.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .review-paragraph .activity-6 {
+.guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph p, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .package-card-details .summary-details .activity-1, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .activity-1, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .package-card-details .summary-details .activity-2, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .activity-2, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .package-card-details .summary-details .activity-3, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .activity-3, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .package-card-details .summary-details .activity-4, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .activity-4, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .package-card-details .summary-details .activity-5, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .activity-5, .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .package-card-details .summary-details .activity-6, .package-card-details .summary-details .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph .activity-6 {
   margin-top: 0;
 }
 
@@ -1381,7 +1310,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
-  padding:  94px 0 87px;
+  padding: 94px, 0px, 87px;
   box-sizing: border-box;
 }
 
