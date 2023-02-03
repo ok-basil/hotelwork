@@ -717,6 +717,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 54%;
   background-color: #0A223D;
   color: #0A223D;
+  border-radius: 0px 8px 8px 0px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp1 .advisor-style .style-wrapper {
   padding-left: 50px;
@@ -819,6 +820,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 100%;
   background-color: #0A223D;
   color: #FFFFFF;
+  border-radius: 0px 0px 8px 8px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .advisor-style2 .style-wrapper {
   padding-left: 50px;
@@ -922,6 +924,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 100%;
   background-color: #0A223D;
   color: #0A223D;
+  border-radius: 0px 0px 8px 8px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .advisor-style3 .style-wrapper {
   padding-left: 30px;
@@ -1026,6 +1029,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 100%;
   background-color: #0A223D;
   color: #FFFFFF;
+  border-radius: 0px 0px 8px 8px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .advisor-style4 .style-wrapper {
   padding-left: 30px;
@@ -1129,6 +1133,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   height: 100%;
   background-color: #0A223D;
   color: #FFFFFF;
+  border-radius: 0px 0px 8px 8px;
 }
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .advisor-style5 .style-wrapper {
   padding-left: 30px;
