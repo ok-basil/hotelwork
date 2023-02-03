@@ -250,8 +250,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .hotel-wrapper {
   background-color: #F5FAFE;
 }
-
-.hotel-name {
+.hotel-wrapper .hotel-name {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -259,138 +258,141 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   margin-top: 30px;
   margin-bottom: 8px;
 }
-
-.stars {
+.hotel-wrapper .stars {
   width: 100%;
   height: 8px;
 }
-
-.hilton-section {
+.hotel-wrapper .hilton-section {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   align-items: center;
 }
-.hilton-section h3 {
+.hotel-wrapper .hilton-section h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   margin: 0;
 }
-.hilton-section span {
+.hotel-wrapper .hilton-section span {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #EC1F46;
   width: 70px;
-  height: 28px;
+  height: 25px;
   border-radius: 3px;
 }
-.hilton-section span p, .hilton-section span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hilton-section span .activity-6, .hilton-section span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hilton-section span .activity-5, .hilton-section span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hilton-section span .activity-4, .hilton-section span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hilton-section span .activity-3, .hilton-section span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hilton-section span .activity-2, .hilton-section span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hilton-section span .activity-1 {
+.hotel-wrapper .hilton-section span p, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-6, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-5, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-4, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-3, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-2, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-1 {
+  display: flex;
+  align-items: center;
   font-size: 10px;
   font-weight: 600;
   line-height: 13px;
   color: #FFFFFF;
 }
-
-.half-board {
+.hotel-wrapper .half-board {
   width: 100%;
   height: 15px;
   color: #333333;
   display: block;
 }
-.half-board p, .half-board .package-card-details .summary-details .activity-6, .package-card-details .summary-details .half-board .activity-6, .half-board .package-card-details .summary-details .activity-5, .package-card-details .summary-details .half-board .activity-5, .half-board .package-card-details .summary-details .activity-4, .package-card-details .summary-details .half-board .activity-4, .half-board .package-card-details .summary-details .activity-3, .package-card-details .summary-details .half-board .activity-3, .half-board .package-card-details .summary-details .activity-2, .package-card-details .summary-details .half-board .activity-2, .half-board .package-card-details .summary-details .activity-1, .package-card-details .summary-details .half-board .activity-1 {
+.hotel-wrapper .half-board p, .hotel-wrapper .half-board .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .half-board .activity-6, .hotel-wrapper .half-board .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .half-board .activity-5, .hotel-wrapper .half-board .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .half-board .activity-4, .hotel-wrapper .half-board .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .half-board .activity-3, .hotel-wrapper .half-board .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .half-board .activity-2, .hotel-wrapper .half-board .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .half-board .activity-1 {
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
   line-height: 15px;
   color: #333333;
+  margin-top: 0px;
 }
-
-.user-rating {
+.hotel-wrapper .user-rating {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 55px;
-  width: 76px;
+  height: 44px;
+  width: 68px;
   background-color: #EC1F46;
   border-radius: 4px;
+  margin-bottom: 2px;
 }
-
-.user {
-  font-size: 8px;
+.hotel-wrapper .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-style: normal;
   font-weight: 600;
   line-height: 8px;
   color: #FFFFFF;
 }
-
-.rating {
+.hotel-wrapper .user p, .hotel-wrapper .user .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .user .activity-6, .hotel-wrapper .user .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .user .activity-5, .hotel-wrapper .user .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .user .activity-4, .hotel-wrapper .user .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .user .activity-3, .hotel-wrapper .user .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .user .activity-2, .hotel-wrapper .user .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .user .activity-1 {
+  font-family: "Mulish";
+  font-weight: 600;
+  line-height: 10.04px;
+  font-size: 8px !important;
+}
+.hotel-wrapper .rating {
   width: 100%;
   height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.rating p, .rating .package-card-details .summary-details .activity-6, .package-card-details .summary-details .rating .activity-6, .rating .package-card-details .summary-details .activity-5, .package-card-details .summary-details .rating .activity-5, .rating .package-card-details .summary-details .activity-4, .package-card-details .summary-details .rating .activity-4, .rating .package-card-details .summary-details .activity-3, .package-card-details .summary-details .rating .activity-3, .rating .package-card-details .summary-details .activity-2, .package-card-details .summary-details .rating .activity-2, .rating .package-card-details .summary-details .activity-1, .package-card-details .summary-details .rating .activity-1 {
+.hotel-wrapper .rating p, .hotel-wrapper .rating .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .rating .activity-6, .hotel-wrapper .rating .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .rating .activity-5, .hotel-wrapper .rating .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .rating .activity-4, .hotel-wrapper .rating .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .rating .activity-3, .hotel-wrapper .rating .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .rating .activity-2, .hotel-wrapper .rating .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .rating .activity-1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
+  margin-top: 0px;
 }
-
-.slider {
+.hotel-wrapper .slider {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top: 20px;
 }
-
-.beach {
+.hotel-wrapper .beach {
   width: 64%;
   background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
   border-radius: 8px;
 }
-.beach img {
+.hotel-wrapper .beach img {
   width: 100%;
 }
-
-.view-options {
+.hotel-wrapper .view-options {
   background-color: #0A223D;
   width: 100%;
   height: 190px;
   display: flex;
   border-radius: 8px;
 }
-
-.price-room {
+.hotel-wrapper .price-room {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
-.price {
+.hotel-wrapper .price {
   color: #FFFFFF;
 }
-.price p, .price .package-card-details .summary-details .activity-6, .package-card-details .summary-details .price .activity-6, .price .package-card-details .summary-details .activity-5, .package-card-details .summary-details .price .activity-5, .price .package-card-details .summary-details .activity-4, .package-card-details .summary-details .price .activity-4, .price .package-card-details .summary-details .activity-3, .package-card-details .summary-details .price .activity-3, .price .package-card-details .summary-details .activity-2, .package-card-details .summary-details .price .activity-2, .price .package-card-details .summary-details .activity-1, .package-card-details .summary-details .price .activity-1 {
+.hotel-wrapper .price p, .hotel-wrapper .price .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .price .activity-6, .hotel-wrapper .price .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .price .activity-5, .hotel-wrapper .price .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .price .activity-4, .hotel-wrapper .price .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .price .activity-3, .hotel-wrapper .price .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .price .activity-2, .hotel-wrapper .price .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .price .activity-1 {
   margin: 0 !important;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
 }
-.price strong {
+.hotel-wrapper .price strong {
   font-family: "Nunito";
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
 }
-
-.room {
+.hotel-wrapper .room {
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
 }
-.room span p, .room span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .room span .activity-6, .room span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .room span .activity-5, .room span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .room span .activity-4, .room span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .room span .activity-3, .room span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .room span .activity-2, .room span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .room span .activity-1 {
+.hotel-wrapper .room span p, .hotel-wrapper .room span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .room span .activity-6, .hotel-wrapper .room span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .room span .activity-5, .hotel-wrapper .room span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .room span .activity-4, .hotel-wrapper .room span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .room span .activity-3, .hotel-wrapper .room span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .room span .activity-2, .hotel-wrapper .room span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .room span .activity-1 {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
@@ -399,8 +401,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   display: flex;
   align-items: center;
 }
-
-.booking {
+.hotel-wrapper .booking {
   height: 25px;
   display: flex;
   justify-content: space-between;
@@ -409,14 +410,14 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   color: #FFFFFF;
   padding-top: 9px;
 }
-.booking h4 {
+.hotel-wrapper .booking h4 {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
 }
-.booking span p, .booking span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .booking span .activity-6, .booking span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .booking span .activity-5, .booking span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .booking span .activity-4, .booking span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .booking span .activity-3, .booking span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .booking span .activity-2, .booking span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .booking span .activity-1 {
+.hotel-wrapper .booking span p, .hotel-wrapper .booking span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .booking span .activity-6, .hotel-wrapper .booking span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .booking span .activity-5, .hotel-wrapper .booking span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .booking span .activity-4, .hotel-wrapper .booking span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .booking span .activity-3, .hotel-wrapper .booking span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .booking span .activity-2, .hotel-wrapper .booking span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .booking span .activity-1 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -426,12 +427,10 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   justify-content: flex-end;
   align-items: center;
 }
-
-.map {
+.hotel-wrapper .map {
   border-radius: 10px;
 }
-
-.other-options {
+.hotel-wrapper .other-options {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -439,7 +438,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   border-radius: 4px;
   margin-top: 17px;
 }
-.other-options a {
+.hotel-wrapper .other-options a {
   color: #FFFFFF !important;
   font-family: "Nunito";
   font-style: normal;
@@ -466,9 +465,12 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .package-menu p:first-of-type, .package-menu .package-card-details .summary-details .activity-6:first-of-type, .package-card-details .summary-details .package-menu .activity-6:first-of-type, .package-menu .package-card-details .summary-details .activity-5:first-of-type, .package-card-details .summary-details .package-menu .activity-5:first-of-type, .package-menu .package-card-details .summary-details .activity-4:first-of-type, .package-card-details .summary-details .package-menu .activity-4:first-of-type, .package-menu .package-card-details .summary-details .activity-3:first-of-type, .package-card-details .summary-details .package-menu .activity-3:first-of-type, .package-menu .package-card-details .summary-details .activity-2:first-of-type, .package-card-details .summary-details .package-menu .activity-2:first-of-type, .package-menu .package-card-details .summary-details .activity-1:first-of-type, .package-card-details .summary-details .package-menu .activity-1:first-of-type {
   color: #EC1F46;
+  border-bottom: 3px solid;
 }
 .package-menu p:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-6:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-6:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-5:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-5:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-4:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-4:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-3:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-3:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-2:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-2:first-of-type a:first-of-type, .package-menu .package-card-details .summary-details .activity-1:first-of-type a:first-of-type, .package-card-details .summary-details .package-menu .activity-1:first-of-type a:first-of-type {
   color: #EC1F46;
+  padding-bottom: 8px;
+  display: inline-block;
 }
 .package-menu p, .package-menu .package-card-details .summary-details .activity-6, .package-card-details .summary-details .package-menu .activity-6, .package-menu .package-card-details .summary-details .activity-5, .package-card-details .summary-details .package-menu .activity-5, .package-menu .package-card-details .summary-details .activity-4, .package-card-details .summary-details .package-menu .activity-4, .package-menu .package-card-details .summary-details .activity-3, .package-card-details .summary-details .package-menu .activity-3, .package-menu .package-card-details .summary-details .activity-2, .package-card-details .summary-details .package-menu .activity-2, .package-menu .package-card-details .summary-details .activity-1, .package-card-details .summary-details .package-menu .activity-1 {
   font-family: "Mulish";
@@ -484,9 +486,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.package-summary h3 {
-  margin-bottom: 0;
+  gap: 24px h3;
+  gap-margin-bottom: 0;
 }
 
 .package-offer {
@@ -1356,6 +1357,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-repeat: no-repeat;
   background-size: cover;
   padding:  94px 0 87px;
+  box-sizing: border-box;
 }
 
 .news-wrap {
@@ -1371,7 +1373,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   color: #FFFFFF;
 }
 .news-wrap .text span h2 {
-  margin-top: 0;
+  margin: 0;
   font-style: normal;
   font-weight: 300;
   line-height: 30px;
