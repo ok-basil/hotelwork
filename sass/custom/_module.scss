@@ -1426,7 +1426,7 @@ ul.breadcrumb li+li:before {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        top: -50px;
+                        top: -118px;
 
                         p:nth-of-type(1) {
                             font-family: 'Mulish';
@@ -1437,7 +1437,7 @@ ul.breadcrumb li+li:before {
                             /* or 19px */
         
                             text-align: justify;
-                            margin-top: 0;
+                            margin-top: 5;
                             color: $tertiary-color;
                         }
         
@@ -1448,24 +1448,30 @@ ul.breadcrumb li+li:before {
                             font-size: $smallest-sizing;
                             line-height: 13px;
                             margin: 1px;
+                            margin-bottom: 4px;
+                        }
+                    }
+
+                    .review-paragraph {
+                        width: 80%;
+                        position: relative;
+
+                        
+                        img:nth-of-type(1) {
+                            position: absolute;
                         }
 
-                        .review-paragraph {
-                            width: 80%;
-                            position: relative;
+                            position: absolute;
+                            top: 132px;
+                        
 
-                            
-                            img:nth-of-type(1) {
-                                position: absolute;
-                            }
-
-                                position: absolute;
-                                top: -120px;
-                            
-
-                            p {
-                                margin-top: 0;
-                            }
+                        p {
+                            margin-top: 0;
+                            font-family: 'Mulish';
+                            font-weight: 400;
+                            font-size: $smaller-sizing;
+                            line-height: 19.2px;
+                            text-align: justify;
                         }
                     }
                 }
