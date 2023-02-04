@@ -152,6 +152,7 @@ a {
 .nav-bg .nav-btp p, .nav-bg .nav-btp .package-card-details .summary-details .activity-6, .package-card-details .summary-details .nav-bg .nav-btp .activity-6, .nav-bg .nav-btp .package-card-details .summary-details .activity-5, .package-card-details .summary-details .nav-bg .nav-btp .activity-5, .nav-bg .nav-btp .package-card-details .summary-details .activity-4, .package-card-details .summary-details .nav-bg .nav-btp .activity-4, .nav-bg .nav-btp .package-card-details .summary-details .activity-3, .package-card-details .summary-details .nav-bg .nav-btp .activity-3, .nav-bg .nav-btp .package-card-details .summary-details .activity-2, .package-card-details .summary-details .nav-bg .nav-btp .activity-2, .nav-bg .nav-btp .package-card-details .summary-details .activity-1, .package-card-details .summary-details .nav-bg .nav-btp .activity-1 {
   font-size: 10px;
   font-weight: 400;
+  font-weight: normal;
 }
 .nav-bg .nav-loyalty {
   display: flex;
@@ -289,7 +290,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   align-items: center;
   background-color: #EC1F46;
   width: 70px;
-  height: 25px;
+  height: 20px;
   border-radius: 3px;
 }
 .hotel-wrapper .hilton-section span p, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-6, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-5, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-4, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-3, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-2, .hotel-wrapper .hilton-section span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .hotel-wrapper .hilton-section span .activity-1 {
@@ -499,6 +500,10 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .package-summary h3 {
   margin-bottom: 0;
+  color: #0A223D !important;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .package-offer {
@@ -713,7 +718,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   background-color: #EC1F46;
   color: #FFFFFF;
   width: 95px;
-  height: 28px;
+  height: 30px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -818,8 +823,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp2 .wrapp2-image span {
   background-color: #EC1F46;
   color: #FFFFFF;
-  width: 95px;
-  height: 28px;
+  width: 90px;
+  height: 24px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -925,8 +930,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp3 .wrapp3-image span {
   background-color: #EC1F46;
   color: #FFFFFF;
-  width: 95px;
-  height: 28px;
+  width: 90px;
+  height: 24px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -1033,8 +1038,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp4 .wrapp4-image span {
   background-color: #EC1F46;
   color: #FFFFFF;
-  width: 95px;
-  height: 28px;
+  width: 90px;
+  height: 24px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -1140,8 +1145,8 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .other-packages-section .other-package-wrapper .trip-advisor-wrapper .wrapp5 .wrapp5-image span {
   background-color: #EC1F46;
   color: #FFFFFF;
-  width: 95px;
-  height: 28px;
+  width: 90px;
+  height: 24px;
   border: none;
   border-radius: 0px 4px 4px 0px;
   left: 0;
@@ -1315,6 +1320,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   font-weight: 400;
   font-size: 10px;
   line-height: 13px;
+  margin: 1px;
 }
 .guest-review-section .guest-wrapper .guest-card-style .holder .wrapp-review .ellipse-container .review-paragraph {
   width: 80%;
@@ -1533,12 +1539,14 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   justify-content: center;
 }
 .footer-section .footer-holder .all-categories span h4 {
+  font-family: "Mulish";
   color: #FFFFFF;
 }
 .footer-section .footer-holder .all-categories span p, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-1, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-2, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-3, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-4, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-5, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-6 {
   color: #BDBDBD;
   margin-top: 0;
   margin-bottom: 5px;
+  font-family: "Mulish";
 }
 .footer-section .footer-holder .all-categories span p a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-1 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-1 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-2 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-2 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-3 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-3 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-4 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-4 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-5 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-5 a, .footer-section .footer-holder .all-categories span .package-card-details .summary-details .activity-6 a, .package-card-details .summary-details .footer-section .footer-holder .all-categories span .activity-6 a {
   color: #BDBDBD;
@@ -1562,9 +1570,11 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .footer-section .contact-section .details span h4 {
   color: #FFFFFF;
+  font-family: "Mulish";
 }
 .footer-section .contact-section .details span h4 p a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-1 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-1 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-2 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-2 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-3 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-3 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-4 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-4 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-5 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-5 a, .footer-section .contact-section .details span h4 .package-card-details .summary-details .activity-6 a, .package-card-details .summary-details .footer-section .contact-section .details span h4 .activity-6 a {
   color: #BDBDBD;
+  font-family: "Mulish";
 }
 .footer-section .contact-section span p, .footer-section .contact-section span .package-card-details .summary-details .activity-1, .package-card-details .summary-details .footer-section .contact-section span .activity-1, .footer-section .contact-section span .package-card-details .summary-details .activity-2, .package-card-details .summary-details .footer-section .contact-section span .activity-2, .footer-section .contact-section span .package-card-details .summary-details .activity-3, .package-card-details .summary-details .footer-section .contact-section span .activity-3, .footer-section .contact-section span .package-card-details .summary-details .activity-4, .package-card-details .summary-details .footer-section .contact-section span .activity-4, .footer-section .contact-section span .package-card-details .summary-details .activity-5, .package-card-details .summary-details .footer-section .contact-section span .activity-5, .footer-section .contact-section span .package-card-details .summary-details .activity-6, .package-card-details .summary-details .footer-section .contact-section span .activity-6 {
   color: #BDBDBD;
@@ -1582,6 +1592,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 }
 .footer-section .contact-form-section span h4 {
   color: #FFFFFF;
+  font-family: "Mulish";
 }
 .footer-section .contact-form-section .contact-form {
   width: 100%;
@@ -1617,6 +1628,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   width: 100%;
   height: 123px;
   padding-left: 20px;
+  font-family: "Mulish";
 }
 .footer-section .contact-form-section .contact-form .submit-button {
   display: flex;
@@ -1656,6 +1668,7 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   justify-content: flex-end;
 }
 .footer-section .last-section span img {
-  width: 85px;
-  height: 17px;
+  max-width: 136px;
+  height: auto;
+  object-fit: contain;
 }

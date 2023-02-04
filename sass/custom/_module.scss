@@ -34,6 +34,7 @@
         p {
             font-size: $smallest-sizing;
             font-weight: 400;
+            font-weight: normal;
         }
     }
     
@@ -193,7 +194,7 @@ ul.breadcrumb li+li:before {
             align-items: center;
             background-color: $tertiary-color;
             width: 70px;
-            height: 25px;
+            height: 20px;
             border-radius: 3px;
     
             p {
@@ -450,6 +451,10 @@ ul.breadcrumb li+li:before {
 
     h3 {
         margin-bottom: 0;
+        color: $secondary-color!important;
+        font-family: 'Mulish';
+        font-weight: 700;
+        font-size: 24px;
     }
 }
 
@@ -716,7 +721,7 @@ ul.breadcrumb li+li:before {
                         background-color: $tertiary-color;
                         color: $primary-color;
                         width: 95px;
-                        height: 28px;
+                        height: 30px;
                         border: none;
                         border-radius: 0px 4px 4px 0px;
                         left: 0;
@@ -839,8 +844,8 @@ ul.breadcrumb li+li:before {
                     span {
                         background-color: $tertiary-color;
                         color: $primary-color;
-                        width: 95px;
-                        height: 28px;
+                        width: 90px;
+                        height: 24px;
                         border: none;
                         border-radius: 0px 4px 4px 0px;
                         left: 0;
@@ -963,8 +968,8 @@ ul.breadcrumb li+li:before {
                     span {
                         background-color: $tertiary-color;
                         color: $primary-color;
-                        width: 95px;
-                        height: 28px;
+                        width: 90px;
+                        height: 24px;
                         border: none;
                         border-radius: 0px 4px 4px 0px;
                         left: 0;
@@ -1090,8 +1095,8 @@ ul.breadcrumb li+li:before {
                     span {
                         background-color: $tertiary-color;
                         color: $primary-color;
-                        width: 95px;
-                        height: 28px;
+                        width: 90px;
+                        height: 24px;
                         border: none;
                         border-radius: 0px 4px 4px 0px;
                         left: 0;
@@ -1226,8 +1231,8 @@ ul.breadcrumb li+li:before {
                     span {
                         background-color: $tertiary-color;
                         color: $primary-color;
-                        width: 95px;
-                        height: 28px;
+                        width: 90px;
+                        height: 24px;
                         border: none;
                         border-radius: 0px 4px 4px 0px;
                         left: 0;
@@ -1434,6 +1439,7 @@ ul.breadcrumb li+li:before {
                             font-weight: 400;
                             font-size: $smallest-sizing;
                             line-height: 13px;
+                            margin: 1px;
                         }
 
                         .review-paragraph {
@@ -1699,7 +1705,7 @@ ul.breadcrumb li+li:before {
 
             span {
                 h4 {
-
+                    font-family: 'Mulish';
                     color: $primary-color;
                 }
             }
@@ -1709,6 +1715,7 @@ ul.breadcrumb li+li:before {
                     color: $footer-text-color;
                     margin-top: 0;
                     margin-bottom: 5px;
+                    font-family: 'Mulish';
 
                     a {
                         color: $footer-text-color;
@@ -1738,10 +1745,12 @@ ul.breadcrumb li+li:before {
 
                 h4 {
                     color: $primary-color;
+                    font-family: 'Mulish';
 
                     p {
                         a {
                             color: $footer-text-color;
+                            font-family: 'Mulish';
                         }
                     }
                 }
@@ -1773,6 +1782,7 @@ ul.breadcrumb li+li:before {
         span {
             h4 {
                 color: $primary-color;
+                font-family: 'Mulish';
             }
         }
 
@@ -1819,6 +1829,7 @@ ul.breadcrumb li+li:before {
                     width: 100%;
                     height: 123px;
                     padding-left: 20px;
+                    font-family: 'Mulish';
 
                 }
             }
@@ -1874,8 +1885,9 @@ ul.breadcrumb li+li:before {
             justify-content: flex-end;
 
             img {
-                width: 85px;
-                height: 17px;
+                max-width: 136px;
+                height: auto;
+                object-fit: contain;
             }
         }
     }
