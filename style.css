@@ -437,7 +437,13 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   justify-content: flex-end;
   align-items: center;
 }
-.hotel-wrapper .map {
+.hotel-wrapper .mapouter {
+  position: relative;
+  text-align: right;
+  height: 218px;
+  width: 347px;
+}
+.hotel-wrapper .mapouter .map {
   border-radius: 10px;
 }
 .hotel-wrapper .other-options {

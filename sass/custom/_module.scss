@@ -371,8 +371,16 @@ ul.breadcrumb li+li:before {
         }
     }
     
-    .map {
-        border-radius: $smallest-sizing;
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 218px;
+        width: 347px;
+
+        .map {
+            border-radius: $smallest-sizing;
+        }
+        
     }
     
     .other-options {
