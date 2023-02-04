@@ -1377,19 +1377,26 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
   font-style: normal;
   font-weight: 300;
   line-height: 30px;
+  font-family: "Mulish";
 }
 
 .search {
   display: flex;
+  padding-left: 50px;
 }
 .search .search-input {
-  width: 350px;
+  width: 300px;
   height: 40px;
   padding-left: 20px;
   color: #333333;
   background-color: #F5FAFE;
-  border-radius: 4px;
+  border-radius: 4px 0px 0px 4px !important;
   border: none;
+  padding: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
 }
 .search .search-button {
   border: none;
