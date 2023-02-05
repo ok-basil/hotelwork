@@ -1,22 +1,22 @@
 //These are the mixins for this project 
 @mixin respond($breakpoint) {
-    @if $breakpoint == phone {
-      @media only screen and (max-width: 37.5em) {
+    @if $breakpoint == sm {
+      @media only screen and (max-width: 40em) {
         @content;
       } //600px
     }
   
-    @if $breakpoint == phone-mid {
-      @media only screen and (max-width: 43.75em) {
-        @content;
-      } //700px
-    }
+    // @if $breakpoint == phone-mid {
+    //   @media only screen and (max-width: 43.75em) {
+    //     @content;
+    //   } //700px
+    // }
   
-    @if $breakpoint == tab-port {
-      @media only screen and (max-width: 50em) {
-        @content;
-      } //800px
-    }
+    // @if $breakpoint == tab-port {
+    //   @media only screen and (max-width: 50em) {
+    //     @content;
+    //   } //800px
+    // }
   
     @if $breakpoint == laptop-mid-size {
       @media only screen and (max-width: 67.5em) {
@@ -24,11 +24,11 @@
       } //1080px
     }
   
-    @if $breakpoint == tab-land {
-      @media only screen and (max-width: 75em) {
-        @content;
-      } //1200px
-    }
+    // @if $breakpoint == tab-land {
+    //   @media only screen and (max-width: 75em) {
+    //     @content;
+    //   } //1200px
+    // }
   
     @if $breakpoint == big-desktop-assoc {
       @media only screen and (max-width: 109.5em) {
@@ -36,11 +36,11 @@
       } //1440px
     }
   
-    @if $breakpoint == big-desktop {
-      @media only screen and (min-width: 110em) {
-        @content;
-      } //1800px
-    }
+    // @if $breakpoint == big-desktop {
+    //   @media only screen and (min-width: 110em) {
+    //     @content;
+    //   } //1800px
+    // }
 }
 
 
