@@ -5,3 +5,46 @@
         @include respond(sm) {}
     }
 }
+
+.best-tour-plan {
+    &-sm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+.logo-search {
+    &-sm {
+        display: flex;
+        flex-direction: column;
+
+        @include respond(sm) {}
+    }
+}
+
+.search-input {
+    &-sm {
+        width: 250px;
+        height: calc($largest-sizing + 4px);
+        padding-left: calc($large-sizing + 2px);
+        color: $header-color;
+        background-color: $main-bg-color;
+        border-radius: calc($smallest-sizing - 4px);
+
+        @include respond(sm) {}
+    }
+}
+
+.menu {
+    &-sm {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+
+        @include respond(sm) {}
+    }
+}

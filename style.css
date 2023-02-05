@@ -1695,3 +1695,30 @@ ul.breadcrumb li + li:before, li.breadcrumb li + li:before {
 .nav-bg-sm {
   display: none;
 }
+.best-tour-plan-sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.logo-search-sm {
+  display: flex;
+  flex-direction: column;
+}
+.search-input-sm {
+  width: 250px;
+  height: 40px;
+  padding-left: 20px;
+  color: #333333;
+  background-color: #F5FAFE;
+  border-radius: 6px;
+}
+.menu-sm {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
