@@ -92,5 +92,259 @@
         width: 100%;
         flex-direction: column;
         gap: 20px;
+
+        .beach {
+            background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+            border-radius: calc($smallest-sizing - 2px);
+            width: 99%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .column-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            gap: 20px;
+        }
+
+        @include respond(sm) {}
+    }
+}
+
+.package-menu {
+    &-sm {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        overflow-x: scroll;
+
+        p: first-of-type {
+            color: $tertiary-color !important;
+
+            a:first-of-type {
+                color: $tertiary-color !important;
+                border-bottom: 3px solid;
+                padding-bottom: 2px;
+                height: 30px;
+                display: flex;
+            }
+        }
+
+        p {
+            color: $header-color;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 8px;
+            line-height: $large-sizing;
+            height: 30px;
+        }
+
+        @include responnd(sm) {}
+    }
+}
+
+.package-offer {
+    &-sm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+
+        .package-card-1 {
+            width: 100%;
+            background-color: $primary-color;
+
+            .highlight-header {
+                background-color: $secondary-color;
+                width: 100%;
+                display: flex;
+                color: #fff;
+                border-radius: 4px 4px 0px 0px;
+                align-items: center;
+
+                h5 {
+                    margin-left: calc($larger-sizing - 4px);
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $normal-sizing;
+                    line-height: $large-sizing;
+                }
+            }
+
+            .card-highlight {
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+                height: 96px;
+                margin-left: calc($larger-sizing - 4px);
+                padding-top: calc($larger-sizing - 4px);
+                padding-bottom: calc($larger-sizing - 4px);
+
+                .card-1,
+                .card-2 {
+                    p {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: $smaller-sizing;
+                        line-height: calc($normal-sizing + 1px);
+                        color: $header-color;
+                    }
+                }
+            }
+        }
+
+        .package-card-2 {
+            width: 100%;
+            background-color: $primary-color;
+
+            .details-header,
+            .card-head {
+                background-color: $secondary-color;
+                width: 100%;
+                display: flex;
+
+                color: #fff;
+                border-radius: 4px 4px 0px 0px;
+                align-items: center;
+
+                h5 {
+                    margin-left: calc($larger-sizing - 4px);
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $normal-sizing;
+                    line-height: $large-sizing;
+                }
+            }
+
+            .card-details {
+                display: flex;
+                justify-content: space-between;
+                margin-left: calc($larger-sizing - 4px);
+                padding-top: calc($larger-sizing - 4px);
+                padding-bottom: 0px !important;
+                
+                .card-1 {
+                    display: flex;
+                    justify-content: center;
+
+                    .design {
+                        display: flex;
+                        flex-direction: column;
+                        height: 103px;
+                        width: 168px;
+                        justify-content: space-between;
+
+                        p {
+                            margin: 0;
+                            font-family: 'Mulish';
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 15px;
+                        }
+                    }
+                }
+
+                .card-2 {
+                    display: flex;
+                    width: 46%;
+                    height: 20px;
+
+                    p {
+                        width: 216px;
+                        font-family: 'Mulish';
+                        font-weight: 400;
+                        font-size: $normal-sizing;
+                        line-height: $large-sizing;
+                    }
+                }
+            }
+        }
+
+        .summary-details {
+            display: flex;
+            justify-content: space-between;
+            padding-top: calc($large-sizing - 4px);
+            padding-bottom: calc($large-sizing - 4px);
+            flex-direction: column;
+            padding-left: calc($larger-sizing - 4px);
+            padding-right: 60px;
+            width: 91%;
+
+            .first-three {
+                display: flex;
+                justify-content: space-between;
+                height: 300px;
+                border-bottom: 1px dashed #E0E0E0;
+                gap: 11px;
+            }
+
+            .last-three {
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+            }
+
+            .activity-1 {
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+
+                h5 {
+                    color: $tertiary-color;
+                    width: 122px;
+                    height: 16px;
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-size: 7px;
+                    font-weight: 400;
+                    line-height: 15px;
+                }
+                
+                .first {
+                    display: flex;
+                    flex-direction: column;
+
+                    p {
+                        align-items: center;
+                        display: flex;
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        line-height: calc($normal-sizing + 1px);
+                        font-weight: 400;
+                        font-size: 7px;
+                    }
+                }
+            }
+
+            .activity-2 {
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+                padding-left: 10px;
+
+                h5 {
+                    color: $tertiary-color;
+                    width: 160px;
+                    height: 16px;
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: calc($large-sizing - 2px);
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        
     }
 }
