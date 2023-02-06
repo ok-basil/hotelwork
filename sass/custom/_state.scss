@@ -12,18 +12,6 @@
 
         @include respond(sm) {}
     }
-
-    // &-large {
-    //     // height: 150vh;
-
-    //     display: flex;
-    //     justify-content: space-between;
-    //     gap: 30px;
-    //     align-items: center;
-    //     width: 18%;
-
-    // }
-    //     @include respond(md) {}
 }
 
 .site-wrapper {
@@ -31,11 +19,8 @@
     &-large {
 
         width: 90%;
-        // height: max-content;
         padding: 0 0px;
         margin: auto;
-
-
 
         @include respond(md) {}
     }
@@ -53,7 +38,6 @@
 
         .best-tour-plan {
             display: flex;
-            // justify-content: space-between;
             align-items: center;
             gap: 35px;
         }
