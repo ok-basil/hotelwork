@@ -1,13 +1,22 @@
 .site-wrapper {
     width: 79%;
     // height: max-content;
-    padding: 0px 0px;
+    padding: 0 0px;
     margin: auto;
-    right: 0;
+
+
+
+    // @include respond(md) {
+    //     width: 79%;
+    //     max-width: 1100px;
+    //     padding: 0px;
+
+    // }
 }
 
 .wrapper {
     width: 100%;
+
 }
 
 .column-wrapper {
@@ -18,21 +27,23 @@
 }
 
 .card-wrapper {
-    width: 82%;
+    width: 80%;
     height: max-content;
-    padding: 0px 0px;
     margin: auto;
+    padding: 0 0px;
+
 }
 
-.card-highlight-wrapper, .card-details-wrapper {
-    background-color: $primary-color;
-    height: max-content;
-    border-radius: 8px 8px 8px 0px;
-}
+// .card-highlight-wrapper,
+// .card-details-wrapper {
+//     background-color: $secondary-color;
+
+
+
+// }
 
 .package-details-wrapper {
-    background-color: $primary-color;
-    height: 500px;
-    border-radius: $minute-sizing;
+    border-radius: calc($smallest-sizing - 2px);
     width: 100%;
+
 }

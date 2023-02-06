@@ -1,639 +1,883 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Hotel Booking Freebie</title>
+  </head>
+  <body>
     <header class="nav">
-        <div class="nav-bg" id="nav-bg">
-            <div class="site-wrapper">
-                <div class="nav-top">    
-                    <div class="nav-enquiry">
-                        <p>Questions? Need Help?</p>
-                        <p>&nbsp; Call us on <a href="tel: +(123)-456-1500">+(123)-456-1500</a></p>
-                    </div>
-                    <div class="nav-btp-loyalty">
-                        <div class="nav-btp">
-                            <p><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 8.25C3.41421 8.25 3.75 8.58579 3.75 9V15.75H14.25V9C14.25 8.58579 14.5858 8.25 15 8.25C15.4142 8.25 15.75 8.58579 15.75 9V16.5C15.75 16.9142 15.4142 17.25 15 17.25H3C2.58579 17.25 2.25 16.9142 2.25 16.5V9C2.25 8.58579 2.58579 8.25 3 8.25Z" fill="#333333"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.75 5.25C0.75 4.83579 1.08579 4.5 1.5 4.5H16.5C16.9142 4.5 17.25 4.83579 17.25 5.25V9C17.25 9.41421 16.9142 9.75 16.5 9.75H1.5C1.08579 9.75 0.75 9.41421 0.75 9V5.25ZM2.25 6V8.25H15.75V6H2.25Z" fill="#333333"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9 4.5C9.41421 4.5 9.75 4.83579 9.75 5.25V16.5C9.75 16.9142 9.41421 17.25 9 17.25C8.58579 17.25 8.25 16.9142 8.25 16.5V5.25C8.25 4.83579 8.58579 4.5 9 4.5Z" fill="#333333"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.625 2.25C5.32663 2.25 5.04048 2.36853 4.8295 2.5795C4.61853 2.79048 4.5 3.07663 4.5 3.375C4.5 3.67337 4.61853 3.95952 4.8295 4.1705C5.04048 4.38147 5.32663 4.5 5.625 4.5H7.99052C7.89896 4.26046 7.78306 3.99706 7.63971 3.73644C7.16799 2.87876 6.52043 2.25 5.625 2.25ZM9 5.25C9.73544 5.10291 9.73538 5.10266 9.73533 5.10239L9.73491 5.10028L9.73409 5.09627L9.73157 5.0842C9.72949 5.07438 9.72662 5.06104 9.7229 5.04441C9.71548 5.01118 9.7047 4.96474 9.69025 4.90697C9.66141 4.79157 9.61774 4.63007 9.5568 4.43764C9.43579 4.05549 9.24248 3.53801 8.95404 3.01356C8.39451 1.99624 7.35457 0.75 5.625 0.75C4.92881 0.75 4.26113 1.02656 3.76884 1.51884C3.27656 2.01113 3 2.67881 3 3.375C3 4.07119 3.27656 4.73887 3.76884 5.23116C4.26113 5.72344 4.92881 6 5.625 6H9C9.2247 6 9.43755 5.89926 9.58001 5.72549C9.72246 5.55173 9.7794 5.32272 9.73533 5.10239L9 5.25Z" fill="#333333"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.04596 3.01356C9.60549 1.99624 10.6454 0.75 12.375 0.75C13.0712 0.75 13.7389 1.02656 14.2312 1.51884C14.7234 2.01113 15 2.67881 15 3.375C15 4.07119 14.7234 4.73887 14.2312 5.23116C13.7389 5.72344 13.0712 6 12.375 6H9C8.7753 6 8.56245 5.89926 8.41999 5.72549C8.27754 5.55173 8.2205 5.32324 8.26456 5.10291L9 5.25C8.26456 5.10291 8.26451 5.10318 8.26456 5.10291L8.26479 5.10177L8.26509 5.10028L8.26591 5.09627L8.26843 5.0842C8.27051 5.07438 8.27338 5.06104 8.2771 5.04441C8.28452 5.01118 8.2953 4.96474 8.30975 4.90697C8.33859 4.79157 8.38226 4.63007 8.4432 4.43764C8.56421 4.05549 8.75752 3.53801 9.04596 3.01356ZM10.0095 4.5H12.375C12.6734 4.5 12.9595 4.38147 13.1705 4.1705C13.3815 3.95952 13.5 3.67337 13.5 3.375C13.5 3.07663 13.3815 2.79048 13.1705 2.5795C12.9595 2.36853 12.6734 2.25 12.375 2.25C11.4796 2.25 10.832 2.87876 10.3603 3.73644C10.2169 3.99706 10.101 4.26046 10.0095 4.5ZM9.73518 5.39835C9.73513 5.39859 9.73514 5.39855 9.73518 5.39835V5.39835Z" fill="#333333"/>
-                                </svg>
-                            </p>
-                            <p> BTP Gift Card</p>
-                        </div>
-                        <div class="nav-loyalty">
-                            <p><svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.00002 0.75C9.28549 0.75 9.5462 0.912054 9.67255 1.16803L11.8157 5.50985L16.6085 6.21039C16.8909 6.25167 17.1254 6.44967 17.2135 6.72118C17.3015 6.99268 17.2278 7.29062 17.0233 7.48977L13.5559 10.867L14.3742 15.6382C14.4225 15.9196 14.3068 16.204 14.0758 16.3718C13.8448 16.5396 13.5386 16.5617 13.2859 16.4288L9.00002 14.1749L4.71411 16.4288C4.46142 16.5617 4.1552 16.5396 3.92422 16.3718C3.69324 16.204 3.57755 15.9196 3.62582 15.6382L4.44413 10.867L0.976722 7.48977C0.772259 7.29062 0.698554 6.99268 0.786587 6.72118C0.874621 6.44967 1.10913 6.25167 1.39155 6.21039L6.18433 5.50985L8.32749 1.16803C8.45385 0.912054 8.71456 0.75 9.00002 0.75ZM9.00002 3.19444L7.35505 6.52697C7.2459 6.7481 7.03501 6.90145 6.79099 6.93712L3.11133 7.47495L5.77332 10.0677C5.95023 10.24 6.03097 10.4884 5.98923 10.7318L5.36116 14.3938L8.65093 12.6637C8.86947 12.5488 9.13057 12.5488 9.34911 12.6637L12.6389 14.3938L12.0108 10.7318C11.9691 10.4884 12.0498 10.24 12.2267 10.0677L14.8887 7.47495L11.2091 6.93712C10.965 6.90145 10.7541 6.7481 10.645 6.52697L9.00002 3.19444Z" fill="#333333"/>
-                                </svg>
-                            </p>
-                            <p>Loyalty Program</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="nav-bg" id="nav-bg">
+        <div class="site-wrapper">
+          <div class="nav-top">
+            <div class="nav-enquiry">
+              <p>Questions? Need Help?</p>
+              <p>
+                Call us on <a href="tel: +(123)-456-1500">+(123)-456-1500</a>
+              </p>
             </div>
-        </div>
-        <div class="nav-main">
-            <div class="site-wrapper">
-                <div class="best-tour-plan" id="best-tour-plan">
-                    <!--This div holds the logo and the search part of the header-->
-                    <div class="logo-search" id="logo-search">
-                        <span class="logo"><img src="assets/img/best-tour-logo.png"/></span>
-                        <form class="flex" action="" method="">
-                            <input class="search-input" id="search-input" placeholder="Search Location" type="search" name="search">
-                            <button class="search-button"><img src="assets/icons/find-button.png" alt="find-button"></button>
-                        </form>
-                    </div>
-                    <div class="menu" id="menu"><span><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_11_227)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7 31C7 29.8954 7.89543 29 9 29C10.1046 29 11 29.8954 11 31C11 32.1046 10.1046 33 9 33C7.89543 33 7 32.1046 7 31Z" fill="black"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18 31C18 29.8954 18.8954 29 20 29C21.1046 29 22 29.8954 22 31C22 32.1046 21.1046 33 20 33C18.8954 33 18 32.1046 18 31Z" fill="black"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11C0 10.4477 0.447715 10 1 10H5C5.47663 10 5.88701 10.3364 5.98055 10.8037L6.82043 15H23C23.298 15 23.5805 15.1329 23.7705 15.3626C23.9605 15.5922 24.0381 15.8946 23.9823 16.1873L22.3809 24.5848C22.2437 25.2754 21.868 25.8958 21.3195 26.3373C20.7738 26.7766 20.0916 27.011 19.3914 27H9.68864C8.98837 27.011 8.3062 26.7766 7.76048 26.3373C7.21225 25.8959 6.83664 25.2759 6.69933 24.5857C6.69927 24.5854 6.69939 24.5859 6.69933 24.5857L5.02879 16.2392C5.02201 16.2116 5.01638 16.1835 5.01195 16.1551L4.18032 12H1C0.447715 12 0 11.5523 0 11ZM7.22073 17L8.66084 24.1952C8.70656 24.4254 8.83179 24.6322 9.01461 24.7793C9.19743 24.9265 9.42619 25.0047 9.66084 25.0002L9.68 25H19.4L19.4192 25.0002C19.6538 25.0047 19.8826 24.9265 20.0654 24.7793C20.2474 24.6328 20.3723 24.4273 20.4185 24.1984L21.7913 17H7.22073Z" fill="black"/>
-                        </g>
-                        <circle cx="24" cy="10" r="10" fill="#EC1F46"/>
-                        <path d="M26.45 12.15V13H21.78V12.23L24.23 9.54C24.5433 9.19333 24.77 8.88 24.91 8.6C25.0567 8.31333 25.13 8.03 25.13 7.75C25.13 7.39 25.0267 7.11667 24.82 6.93C24.6133 6.73667 24.3133 6.64 23.92 6.64C23.26 6.64 22.6 6.9 21.94 7.42L21.57 6.66C21.85 6.4 22.2067 6.19333 22.64 6.04C23.0733 5.88 23.51 5.8 23.95 5.8C24.63 5.8 25.1667 5.97 25.56 6.31C25.96 6.65 26.16 7.11 26.16 7.69C26.16 8.10333 26.07 8.49667 25.89 8.87C25.71 9.23667 25.41 9.64667 24.99 10.1L23.09 12.15H26.45Z" fill="white"/>
-                        <defs>
-                        <clipPath id="clip0_11_227">
-                        <rect width="24" height="24" fill="white" transform="translate(0 10)"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        </span>
-                        <span class="flex justify-between gap"><img src="assets/img/nathan.png"/><p>Nathan</p></span>
-                        <span class="button-menu-span"><button class="button-menu"><img src="assets/icons/dropdown.png"/></button></span>
-                    </div>
-                </div>
+            <div class="nav-btp-loyalty">
+              <div class="nav-btp">
+                <p>
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3 8.25C3.41421 8.25 3.75 8.58579 3.75 9V15.75H14.25V9C14.25 8.58579 14.5858 8.25 15 8.25C15.4142 8.25 15.75 8.58579 15.75 9V16.5C15.75 16.9142 15.4142 17.25 15 17.25H3C2.58579 17.25 2.25 16.9142 2.25 16.5V9C2.25 8.58579 2.58579 8.25 3 8.25Z"
+                      fill="#333333"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.75 5.25C0.75 4.83579 1.08579 4.5 1.5 4.5H16.5C16.9142 4.5 17.25 4.83579 17.25 5.25V9C17.25 9.41421 16.9142 9.75 16.5 9.75H1.5C1.08579 9.75 0.75 9.41421 0.75 9V5.25ZM2.25 6V8.25H15.75V6H2.25Z"
+                      fill="#333333"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9 4.5C9.41421 4.5 9.75 4.83579 9.75 5.25V16.5C9.75 16.9142 9.41421 17.25 9 17.25C8.58579 17.25 8.25 16.9142 8.25 16.5V5.25C8.25 4.83579 8.58579 4.5 9 4.5Z"
+                      fill="#333333"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M5.625 2.25C5.32663 2.25 5.04048 2.36853 4.8295 2.5795C4.61853 2.79048 4.5 3.07663 4.5 3.375C4.5 3.67337 4.61853 3.95952 4.8295 4.1705C5.04048 4.38147 5.32663 4.5 5.625 4.5H7.99052C7.89896 4.26046 7.78306 3.99706 7.63971 3.73644C7.16799 2.87876 6.52043 2.25 5.625 2.25ZM9 5.25C9.73544 5.10291 9.73538 5.10266 9.73533 5.10239L9.73491 5.10028L9.73409 5.09627L9.73157 5.0842C9.72949 5.07438 9.72662 5.06104 9.7229 5.04441C9.71548 5.01118 9.7047 4.96474 9.69025 4.90697C9.66141 4.79157 9.61774 4.63007 9.5568 4.43764C9.43579 4.05549 9.24248 3.53801 8.95404 3.01356C8.39451 1.99624 7.35457 0.75 5.625 0.75C4.92881 0.75 4.26113 1.02656 3.76884 1.51884C3.27656 2.01113 3 2.67881 3 3.375C3 4.07119 3.27656 4.73887 3.76884 5.23116C4.26113 5.72344 4.92881 6 5.625 6H9C9.2247 6 9.43755 5.89926 9.58001 5.72549C9.72246 5.55173 9.7794 5.32272 9.73533 5.10239L9 5.25Z"
+                      fill="#333333"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.04596 3.01356C9.60549 1.99624 10.6454 0.75 12.375 0.75C13.0712 0.75 13.7389 1.02656 14.2312 1.51884C14.7234 2.01113 15 2.67881 15 3.375C15 4.07119 14.7234 4.73887 14.2312 5.23116C13.7389 5.72344 13.0712 6 12.375 6H9C8.7753 6 8.56245 5.89926 8.41999 5.72549C8.27754 5.55173 8.2205 5.32324 8.26456 5.10291L9 5.25C8.26456 5.10291 8.26451 5.10318 8.26456 5.10291L8.26479 5.10177L8.26509 5.10028L8.26591 5.09627L8.26843 5.0842C8.27051 5.07438 8.27338 5.06104 8.2771 5.04441C8.28452 5.01118 8.2953 4.96474 8.30975 4.90697C8.33859 4.79157 8.38226 4.63007 8.4432 4.43764C8.56421 4.05549 8.75752 3.53801 9.04596 3.01356ZM10.0095 4.5H12.375C12.6734 4.5 12.9595 4.38147 13.1705 4.1705C13.3815 3.95952 13.5 3.67337 13.5 3.375C13.5 3.07663 13.3815 2.79048 13.1705 2.5795C12.9595 2.36853 12.6734 2.25 12.375 2.25C11.4796 2.25 10.832 2.87876 10.3603 3.73644C10.2169 3.99706 10.101 4.26046 10.0095 4.5ZM9.73518 5.39835C9.73513 5.39859 9.73514 5.39855 9.73518 5.39835V5.39835Z"
+                      fill="#333333"
+                    />
+                  </svg>
+                </p>
+                <p>BTP Gift Card</p>
+              </div>
+              <div class="nav-loyalty">
+                <p>
+                  <svg
+                    width="18"
+                    height="17"
+                    viewBox="0 0 18 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.00002 0.75C9.28549 0.75 9.5462 0.912054 9.67255 1.16803L11.8157 5.50985L16.6085 6.21039C16.8909 6.25167 17.1254 6.44967 17.2135 6.72118C17.3015 6.99268 17.2278 7.29062 17.0233 7.48977L13.5559 10.867L14.3742 15.6382C14.4225 15.9196 14.3068 16.204 14.0758 16.3718C13.8448 16.5396 13.5386 16.5617 13.2859 16.4288L9.00002 14.1749L4.71411 16.4288C4.46142 16.5617 4.1552 16.5396 3.92422 16.3718C3.69324 16.204 3.57755 15.9196 3.62582 15.6382L4.44413 10.867L0.976722 7.48977C0.772259 7.29062 0.698554 6.99268 0.786587 6.72118C0.874621 6.44967 1.10913 6.25167 1.39155 6.21039L6.18433 5.50985L8.32749 1.16803C8.45385 0.912054 8.71456 0.75 9.00002 0.75ZM9.00002 3.19444L7.35505 6.52697C7.2459 6.7481 7.03501 6.90145 6.79099 6.93712L3.11133 7.47495L5.77332 10.0677C5.95023 10.24 6.03097 10.4884 5.98923 10.7318L5.36116 14.3938L8.65093 12.6637C8.86947 12.5488 9.13057 12.5488 9.34911 12.6637L12.6389 14.3938L12.0108 10.7318C11.9691 10.4884 12.0498 10.24 12.2267 10.0677L14.8887 7.47495L11.2091 6.93712C10.965 6.90145 10.7541 6.7481 10.645 6.52697L9.00002 3.19444Z"
+                      fill="#333333"
+                    />
+                  </svg>
+                </p>
+                <p>Loyalty Program</p>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="nav-bottom">
-            <div class="site-wrapper">
-                <div class="nav-bottom-list" id="nav-bottom-list">
-                    <ul class="list-menu">
-                        <li><a href="#">ALL DEALS</a></li>
-                        <li><a href="#">HOTELS</a></li>
-                        <li><a href="#">ACTIVITIES</a></li>
-                        <li><a href="#">HOTEL DAY PACKAGES</a></li>
-                        <li><a href="#">RESTAURANTS</a></li>
-                        <li><a href="#">EVENTS</a></li>
-                        <li><a href="#">RODRIGUES</a></li>
-                    </ul>
-                </div>
+      </div>
+      <div class="nav-main" id="nav-main">
+        <div class="site-wrapper">
+          <div class="best-tour-plan" id="best-tour-plan">
+            <!--First div-->
+            <div class="logo-search" id="logo-search">
+              <span class="logo">
+                <img src="assets/img/best-tour-logo.png"/>
+              </span>
+              <form class="flex" action="" method="get">
+                <input
+                  class="search-input"
+                  type="search"
+                  placeholder="Search Location"
+                  name="search"
+                  id="nav-search-input"
+                />
+                <button class="search-button">
+                  <img src="assets/icons/find-button.png" alt="find-button">
+                </button>
+              </form>
             </div>
+
+            <!--Second div-->
+            <div class="menu" id="dropdown">
+              <span>
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_11_227)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7 31C7 29.8954 7.89543 29 9 29C10.1046 29 11 29.8954 11 31C11 32.1046 10.1046 33 9 33C7.89543 33 7 32.1046 7 31Z"
+                      fill="black"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18 31C18 29.8954 18.8954 29 20 29C21.1046 29 22 29.8954 22 31C22 32.1046 21.1046 33 20 33C18.8954 33 18 32.1046 18 31Z"
+                      fill="black"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0 11C0 10.4477 0.447715 10 1 10H5C5.47663 10 5.88701 10.3364 5.98055 10.8037L6.82043 15H23C23.298 15 23.5805 15.1329 23.7705 15.3626C23.9605 15.5922 24.0381 15.8946 23.9823 16.1873L22.3809 24.5848C22.2437 25.2754 21.868 25.8958 21.3195 26.3373C20.7738 26.7766 20.0916 27.011 19.3914 27H9.68864C8.98837 27.011 8.3062 26.7766 7.76048 26.3373C7.21225 25.8959 6.83664 25.2759 6.69933 24.5857C6.69927 24.5854 6.69939 24.5859 6.69933 24.5857L5.02879 16.2392C5.02201 16.2116 5.01638 16.1835 5.01195 16.1551L4.18032 12H1C0.447715 12 0 11.5523 0 11ZM7.22073 17L8.66084 24.1952C8.70656 24.4254 8.83179 24.6322 9.01461 24.7793C9.19743 24.9265 9.42619 25.0047 9.66084 25.0002L9.68 25H19.4L19.4192 25.0002C19.6538 25.0047 19.8826 24.9265 20.0654 24.7793C20.2474 24.6328 20.3723 24.4273 20.4185 24.1984L21.7913 17H7.22073Z"
+                      fill="black"
+                    />
+                  </g>
+                  <circle cx="24" cy="10" r="10" fill="#EC1F46" />
+                  <path
+                    d="M26.45 12.15V13H21.78V12.23L24.23 9.54C24.5433 9.19333 24.77 8.88 24.91 8.6C25.0567 8.31333 25.13 8.03 25.13 7.75C25.13 7.39 25.0267 7.11667 24.82 6.93C24.6133 6.73667 24.3133 6.64 23.92 6.64C23.26 6.64 22.6 6.9 21.94 7.42L21.57 6.66C21.85 6.4 22.2067 6.19333 22.64 6.04C23.0733 5.88 23.51 5.8 23.95 5.8C24.63 5.8 25.1667 5.97 25.56 6.31C25.96 6.65 26.16 7.11 26.16 7.69C26.16 8.10333 26.07 8.49667 25.89 8.87C25.71 9.23667 25.41 9.64667 24.99 10.1L23.09 12.15H26.45Z"
+                    fill="white"
+                  />
+                  <defs>
+                    <clipPath id="clip0_11_227">
+                      <rect
+                        width="24"
+                        height="24"
+                        fill="white"
+                        transform="translate(0 10)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+
+              <span class="flex gap">
+                <img src="assets/img/nathan.png"/>
+                <p>Nathan</p>
+                <button class="button">
+                  <img src="assets/icons/dropdown.png"/>
+                </button>
+              </span>
+
+              <span> </span>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="nav-bottom">
+        <div class="site-wrapper">
+          <div class="nav-buttom-list" id="nav-buttom-list-menu">
+            <ul class="list-menu">
+              <li><a href="">ALL DEALS</a></li>
+              <li><a href="">HOTELS</a></li>
+              <li><a href="">ACTIVITIES</a></li>
+              <li><a href="">HOTEL DAY PACKAGES</a></li>
+              <li><a href="">RESTAURANTS</a></li>
+              <li><a href="">EVENTS</a></li>
+              <li><a href="">RODRIGUES</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-        <!-- Breadcrumb section-->
-        <section class="bread-crumb">
-            <div class="site-wrapper">
-                <ul class="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Flash Offers</a></li>
-                    <li><a href="#">Grand Hilton Hotel</a></li>
-                </ul>
-            </div>
-        </section>
-        <!-- Hotel name, price and map section-->
-        <section class="hotel-wrapper">
-            <div class="site-wrapper">
-                <div class="hotel-name">
-                    <div>
-                        <span class="stars"><img src="assets/icons/stars.png"/></span>
-                        <div class="hilton-section"><h3>GRAND HILTON HOTEL</h3><span><p>Flash Offer</p></span></div>
-                        <span class="half-board"><p>Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</p></span>
-                    </div>
-                    <div class="user-rating">
-                        <span class="user">
-                            <p>User Ratings</p>
-                            <span class="rating">
-                                <p><img src="assets/icons/fouroverfive.png"/></p>
-                            </span>
-                        </span>
-                    </div>
-                </div>
-                <div class="slider" id="slider">
-                    <div class="beach" id="beach"><img src="assets/img/beach.png"/></div>
-                    <div class="column-wrapper" id="column-wrapper">
-                        <div class="view-options">
-                            <div class="card-wrapper">
-                                <div class="price-room">
-                                    <div class="price">
-                                        <p>price starts as</p>
-                                        <strong> $ 8,500 </strong> <br />
-                                        <p>per room / night </p>
-                                    </div>
-                                    <div class="room">
-                                        <span>
-                                            <p><img src="assets/icons/user.png"/>&nbsp; 2 x Guests</p>
-                                            <p><img src="assets/icons/home.png"/>&nbsp; &nbsp;1 X Room</p>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="booking">
-                                    <h4>Quick Booking</h4>
-                                    <span>
-                                        <p><img src="assets/icons/phone-call.png"/>&nbsp; 12100</p>
-                                    </span>
-                                </div>
-                                <span class="other-options"><a href="#">View Other Options</a></span>
-                            </div>
-                          </div>
-                        <div class="mapouter"><div class="gmap_canvas map"><iframe width="347" height="218" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:213px;width:347px;}</style><a href="https://www.embedgooglemap.net">google maps for my website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:213px;width:347px;}</style></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br>
-        <!--Package summary and summary details section-->
-        <section class="package-section">
-            <div class="site-wrapper">
-                <div class="package-container">
-                    <div class="package-menu" id="package-menu">
-                      <p><a href="#">Package Summary</a></p>
-                      <p><a href="#">Hotel Information</a></p>
-                      <p><a href="#">Rooms</a></p>
-                      <p><a href="#">Facilities & Activities</a></p>
-                      <p><a href="#">Dining & Entertainment</a></p>
-                      <p><a href="#">Reviews</a></p>
-                      <p><a href="#">Questions and Answers</a></p>
-                    </div>
-                    <div class="package-summary">
-                        <h3>PACKAGE SUMMARY</h3>
-                        <div class="package-offer" id="package-offer">
-                            <div class="package-card-1" id="package-card-1">
-                                <span class="highlight-header" id="highlight-header"><h5>Package Highlights</h5></span>
-                                <div class="card-highlight-wrapper">
-                                    <div class="card-highlight" id="card-highlight">
-                                        <div class="card-1" id="card-1">
-                                            <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Half Board/ All Inclusive</p>
-                                            <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Luxurious 5-Star Hotel</p>
-                                            <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Child Under 11 Years Stay Free</p>
-                                        </div>
-                                        <div class="card-2" id="card-2">
-                                            <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Banyan An Adult Only Zone</p>
-                                            <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; LUX* Me Spa</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="package-card-2" id="package-card-2">
-                                <span class="details-header" id="details-header"><h5>Offer Details</h5></span>
-                                <div class="card-details-wrapper">
-                                    <div class="card-detail">
-                                        <div class="details-1">
-                                            <span >
-                                              <img src="assets/icons/tick.png" alt="">
-                                            </span>
-                                            &nbsp;
-                                            &nbsp;
-                                            &nbsp;
-                                            <span class="design">
-                                              <p>Benefit from a special discounted CHILL'OUT OFFER at Grand Hilton Hotel.</p>
-                                              <span>
-                                                <p>* Valid until 30 April 2020</p>
-                                              </span>
-                                            </span>                                            
-                                        </div>
-                                        <div class="details-2"><span><img src="assets/icons/calender.png"/></span>
-                                          <span class="design"><p>&nbsp;&nbsp;&nbsp; 10th March - 30th April 2020</p></span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="package-card-details">
-                            <span class="card-head" id="card-head"><h5>Package Summary Details</h5></span>
-                            <div class="package-details-wrapper">
-                                <div class="summary-details" id="summary-details">
-                                    <div class="first-three" id="first-three">
-                                        <div class="activity-1" id="activity-1">
-                                            <h5>Purchase Inclusions</h5>
-                                            <div class="first" id="first">
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Room as per selection</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Half Board or All Inclusive Meal Plan</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Complimentary Land & Water activities</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Child Under 11 years old stays free</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Free Wi-Fi</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Free Secure Parking</p>
-                                            </div>
-                                        </div>
-                                        <div class="activity-2" id="activity-2">
-                                            <h5>Complimentary Land Based Activities</h5>
-                                            <div class="first" id="first">
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Gym</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Beach Volley</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Table tennis</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Soccer balls</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Yoga</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Unlimited access to driving range</p>
-                                            </div>
-                                        </div>
-                                        <div class="activity-3" id="activity-3">
-                                            <h5>Complimentary Water Based Activities</h5>
-                                            <div class="first">
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Water skiing</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Windsurfing</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Pedal boats</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Kayaking</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Aqua Gym</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Glass bottom boat trips</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="last-three" id="last-three">
-                                        <div class="activity-4" id="activity-4">
-                                            <h5>Meal Plan Available</h5>
-                                            <div class="first" id="first">
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Half Board</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; All Inclusive</p>
-                                            </div>
-                                        </div>
-                                        <div class="activity-5" id="activity-5">
-                                            <h5>Entertainment</h5>
-                                            <div class="first" id="first">
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Live music</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; DJ & Mauritian Dance Show</p>
-                                            </div>
-                                        </div>
-                                        <div class="activity-6" id="activity-6">
-                                            <h5>Check In & Check Out</h5>
-                                            <div class="first" id="first">
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Check In Time 14:00</p>
-                                              <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Check Out Time 11:00</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Other Packages Section-->
-        <section class="other-packages-section">
-            <div class="site-wrapper">
-              <div class="other-package-wrapper">
-                <div class="other-package-header">
-                  <h2>OTHER PACKAGES</h2>
-                </div>
-      
-                <!---->
-                <div class="trip-advisor-wrapper">
-                  
-                  <div class="wrapp1">
-                    <div class="wrapp-image">
-                      <img src="assets/img/grid1.png" alt="">
-                      <span><p>Flash Offer</p></span>
-                    </div>
-                    <div class="advisor-style">
-                      <div class="style-wrapper">
-                        <span>
-                          <img src="assets/icons/stars.png" alt="">
-      
-                          <h4>Hotel Blue Haven</h4>
-    
-                          <p>Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit. Ipsum est fugiat velit ea ullamco do</p>
-    
-                          <span class="person-room">
-                            <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
-                            <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
-                            <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
-                          </span>    
-                          <div class="book-now">
-                            <span>
-                              <p class="slashed">$ 10,500</p>
-                              <h3>$ 8,500</h3>
-    
-                            </span>
-                            <button>Book  Now</button>
-                          </div>
-                        </span>
-                      </div>
-                    </div>
-                    
-                  </div>
-    
-                  <!---->
-                  <div class="wrapp2">
-                    <div class="wrapp2-image">
-                      <img src="assets/img/grid2.png" alt="">
-                      <span><p>Flash Offer</p></span>
-                    </div>
-                    <div class="advisor-style2">
-                      <div class="style-wrapper">
-                        <span>
-                          <h4>LUX* Belle Mare</h4>
-                          <span class="person-room">
-                            <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
-                            <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
-                            <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
-                          </span>
-                          <div class="book-now">
-                            <span>
-                              <p class="slashed">$ 10,500</p>
-                              <h3>$ 8,500</h3>
-                            </span>
-                            <button>Book  Now</button>
-                          </div>
-                        </span>
-                      </div>
-                    </div>
-                    
-                  </div>
-    
-                  <!---->
-                  <div class="wrapp3">
-                    <div class="wrapp3-image">
-                      <img src="assets/img/grid3.png" alt="">
-                      <span><p>Flash Offer</p></span>
-                    </div>
-                    <div class="advisor-style3">
-                      <div class="style-wrapper">
-                        <span>
-                          <h4>White Palace</h4>
-                          <span class="person-room">
-                                <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
-                                <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
-                                <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
-                          </span>
-                          <div class="book-now">
-                            <span>
-                              <p class="slashed">$ 10,500</p>
-                              <h3>$ 9,500</h3>
-                            </span>
-                            <button>Book  Now</button>
-                          </div>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <!---->
-                  <div class="wrapp4">
-                    <div class="wrapp4-image">
-                      <img src="assets/img/grid4.png" alt="">
-                      <span><p>Flash Offer</p></span>
-                    </div>
-                    <div class="advisor-style4">
-                      <div class="style-wrapper">
-                        <span>
-                          <h4>Luxury Place</h4>
-    
-                          <span class="person-room">
-                            <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
-                            <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
-                            <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
-                          </span>
-                          <div class="book-now">
-                            <span>
-                              <p class="slashed">$ 10,500</p>
-                              <h3>$ 9,500</h3>
-    
-                            </span>
-                            <button>Book  Now</button>
-                          </div>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <!---->
-                  <div class="wrapp5">
-                    <div class="wrapp5-image">
-                      <img src="assets/img/grid5.png" alt="">
-                      <span><p>Flash Offer</p></span>
-                    </div>
-                    <div class="advisor-style5">
-                      <div class="style-wrapper">
-                        <span>
-                          <h4>Hotel Five Star</h4>
-                          <span class="person-room">
-                            <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
-                            <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
-                            <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
-                          </span>
-                          <div class="book-now">
-                            <span>
-                              <p class="slashed">$ 10,500</p>
-                              <h3>$ 9,500</h3>
-    
-                            </span>
-                            <button>Book  Now</button>
-                          </div>
-                        </span>
-    
-    
-                      </div>
-                    </div>
-                    
-                  </div>
-    
-                </div>
-    
+      <!--Bread crumb div-->
+      <section class="bread-crumb">
+        <div class="site-wrapper">
+          <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Flash Offers</a></li>
+            <li><a href="#">Grand Hilton Hotel</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Grand Hilton Hotel-->
+      <section class="hotel-wrapper">
+        <div class="site-wrapper">
+          <div class="hotel-name">
+            <div>
+              <!--Star image-->
+              <span class="stars"
+                ><img src="./asset/images/Stars.png" alt=""
+              /></span>
+              <!--GRAND HILTON HOTEL-->
+              <div class="hilton-section">
+                <h3>GRAND HILTON HOTEL</h3>
+                <span>
+                  <p>Flash Offer</p>
+                </span>
               </div>
+              <!--Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free-->
+              <span class="half-board">
+                <p>
+                  Half-Board/ All Inclusive + Complimentary Activities + Child
+                  Stays Free
+                </p>
+              </span>
             </div>
-        </section>
-        <!--Testimonials Section-->
-        <section class="guest-review-section">
-            <div class="site-wrapper">
-              <div class="guest-wrapper">
+            <div class="user-rating">
+              <span class="user">
+                <p>User Ratings</p>
+                <span class="rate">
+                  <p>
+                    <svg
+                      width="31"
+                      height="12"
+                      viewBox="0 0 31 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.064 9.054H6.65V11H4.886V9.054H0.546V7.71L5.208 1.032H6.65V7.64H8.064V9.054ZM4.886 7.64V3.846L2.254 7.64H4.886ZM11.1245 9.04V11H9.16453V9.04H11.1245ZM16.6402 4.63C17.2655 4.63 17.8162 4.76533 18.2922 5.036C18.7682 5.29733 19.1369 5.67067 19.3982 6.156C19.6595 6.632 19.7902 7.18267 19.7902 7.808C19.7902 8.46133 19.6409 9.04 19.3422 9.544C19.0435 10.0387 18.6142 10.426 18.0542 10.706C17.4942 10.9767 16.8455 11.112 16.1082 11.112C15.4829 11.112 14.8669 11.0093 14.2602 10.804C13.6535 10.5893 13.1542 10.3047 12.7622 9.95L13.3642 8.634C14.2695 9.32467 15.1935 9.67 16.1362 9.67C16.7615 9.67 17.2375 9.516 17.5642 9.208C17.9002 8.89067 18.0682 8.44267 18.0682 7.864C18.0682 7.31333 17.8955 6.87467 17.5502 6.548C17.2142 6.212 16.7615 6.044 16.1922 6.044C15.8002 6.044 15.4315 6.11867 15.0862 6.268C14.7409 6.408 14.4375 6.618 14.1762 6.898H13.0842V1.032H19.3282V2.432H14.8482V5.148C15.3522 4.80267 15.9495 4.63 16.6402 4.63ZM19.9527 11.826L23.5787 0.458H25.0767L21.4227 11.826H19.9527ZM28.0988 6.45C28.5454 6.45 28.9388 6.54667 29.2788 6.74C29.6188 6.92667 29.8821 7.19333 30.0688 7.54C30.2554 7.88 30.3488 8.27333 30.3488 8.72C30.3488 9.18667 30.2421 9.6 30.0288 9.96C29.8154 10.3133 29.5088 10.59 29.1088 10.79C28.7088 10.9833 28.2454 11.08 27.7188 11.08C27.2721 11.08 26.8321 11.0067 26.3988 10.86C25.9654 10.7067 25.6088 10.5033 25.3288 10.25L25.7588 9.31C26.4054 9.80333 27.0654 10.05 27.7388 10.05C28.1854 10.05 28.5254 9.94 28.7588 9.72C28.9988 9.49333 29.1188 9.17333 29.1188 8.76C29.1188 8.36667 28.9954 8.05333 28.7488 7.82C28.5088 7.58 28.1854 7.46 27.7788 7.46C27.4988 7.46 27.2354 7.51333 26.9888 7.62C26.7421 7.72 26.5254 7.87 26.3388 8.07H25.5588V3.88H30.0188V4.88H26.8188V6.82C27.1788 6.57333 27.6054 6.45 28.0988 6.45Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </p>
+                </span>
+              </span>
+            </div>
+          </div>
+          <!---->
+          <div class="slider" id="slider">
+            <!---->
+            <div class="beach">
+              <img src="assets/img/beach.png"/>
+            </div>
+            <!---->
+            <div class="column-wrapper">
+              <div class="view-options">
+                <div class="card-wrapper">
+                  <div class="price-room">
+                    <div class="price">
+                      <p>price starts as</p>
+                      <strong> $ 8,500 </strong> <br />
+                      <p>per room / night</p>
+                    </div>
+                    <div class="room">
+                      <span>
+                        <p>
+                          <p><img src="assets/icons/user.png"/>&nbsp;&nbsp;&nbsp; 2x
+                          Guests
+                        </p>
+                        <p>
+                          <p><img src="assets/icons/home.png"/>&nbsp; 
+                          &nbsp;
+                          &nbsp;
+                          1x Room
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="booking">
+                    <h4>Quick Booking</h4>
                     <span>
-                        <h2>WHAT PEOPLE THINK ABOUT US</h2>
+                      <p>
+                        <img src="assets/icons/phone-call.png"/>&nbsp;&nbsp;
+                        12100
+                      </p>
                     </span>
-                    <div class="guest-card-style">
-                        <span><img src="assets/icons/chevron-left.png" alt=""></span>
-                        <div class="holder">
-                            <div class="wrapp-review">
-                                <div class="ellipse-container">
-                                    <img src="assets/img/testimonial.png" alt="">
-                                    <p>Megan Fox</p>
-                                    <p>Stayed 18 Nov, 2019</p>
-                                    <img src="assets/icons/stars.png" alt="">
-                                </div>
-                                <div class="review-paragraph">
-                                    <p>It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <span><img src="assets/icons/chevron-right.png" alt=""></span>
-                    </div>
+                  </div>
+
+                  <span class="view-other-options">
+                    <p><a href="">View other Options</a></p>
+                  </span>
+                </div>
+              </div>
+              <div class="mapouter">
+                <div class="gmap_canvas map">
+                  <iframe
+                    width="600"
+                    height="213"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  ><a href="https://123movies-to.org"></a><br /><style>
+                    .mapouter {
+                      position: relative;
+                      text-align: right;
+                      height: 213px;
+                      width: 100%;
+                    }</style
+                  ><a href="https://www.embedgooglemap.net"
+                    >google maps for my website</a
+                  ><style>
+                    .gmap_canvas {
+                      overflow: hidden;
+                      background: none !important;
+                      height: 208px;
+                      width: 100%;
+                    }
+                  </style>
+                </div>
               </div>
             </div>
-        </section>
-        <section class="newsletter-section">
-            <div class="site-wrapper">
-                <div class="news-wrap">
-                    <div class="text">
-                        <span>
-                            <h3>subscribe to our</h3>
-                        </span>
-                        <span><h2>NEWSLETTER</h2></span>
-                    </div>
-                    <div>
-                        <form class="search" action="" method="get">
-                            <input class="search-input" type="search" placeholder="Your email address" name="search" id=""/><button class="search-button">Send</button>
-                        </form>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+
+      <!--PACKAGE SECTION-->
+      <section class="package-section">
+        <div class="site-wrapper">
+          <div class="package-contianer">
+            <div class="package-menu" id="package-menu">
+              <p><a href="">Package Summary</a></p>
+              <p><a href="">Hotel Information</a></p>
+              <p><a href="">Rooms</a></p>
+              <p><a href="">Facilities & Activities</a></p>
+              <p><a href="">Dining & Entertainment</a></p>
+              <p><a href="">Reviews</a></l>
+              <p><a href="">Questions & Answers</a></p>
             </div>
-        </section> 
-        <section class="other-activities">
-            <div class="site-wrapper">
-                <div class="activities-wrapper">
-                    <div class="activities-header">
-                        <h2>OTHER ACTIVITIES</h2>
-                    </div>
-                    <div class="activities-cards">
+            <div class="package-summery">
+              <h3>PACKAGE SUMMERY</h3>
+              <div class="package-offer" id="package-offer">
+                <div class="package-card1">
+                    <span class="highlight-header">
+                      <h5>Package Highlights</h5>
+                    </span>
+                    <div class="card-highlight-wrapper">
+                      <div class="card-highlight">
                         <div class="card1">
-                            <span>
-                                <h3>The curious corner 
-                                of chamarel</h3>
-                                <button>Book Now</button>
-                            </span>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Half Board/ All Inclusive</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Child Under 11 Years Stay Free</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LUX* Me Spa</p>
                         </div>
                         <div class="card2">
-                            <span>
-                                <h3>Gymkhana club golf
-                                    course</h3>
-                                <button>Book Now</button>
-                            </span>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Luxurious 5-Star Hotel</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Banyan An Adult Only Zone</p>
                         </div>
-                        <div class="card3">
-                            <span>
-                                <h3>Tamarind falls hiking
-                                    trip - full day
-                                    
-                                    </h3>
-                                <button>Book Now</button>
-                            </span>
-                        </div>
-                        <div class="card4">
-                            <span>
-                                <h3>The blue marine discovery
-                                    quest</h3>
-                                <button>Book Now</button>
-                            </span>
-                        </div>
+                      </div>
                     </div>
                 </div>
-            </div>
-        </section>       
-    </main>
+                  <div class="package-card2">
+                    <span class="details-header">
+                      <h5>Offer Details</h5>
+                    </span>
+                    <div class="card-details-wrapper">
+                      <div class="card-Details">
+                        <div class="card1">
+                          <span >
+                            <img src="assets/icons/tick.png"/>
+                          </span>
+                          &nbsp;
+                          &nbsp;
+                          &nbsp;
+                          <span class="design">
+                            <p>Benefit from a special discounted CHILL’OUT OFFER at Grand Hilton Hotel.
+                            </p>
+                            <p>
+                              * Valid until 30 April 2020
+                            </p>
+                          </span>
+                        </div>
+                        <div class="card2">
+                          <p><img src="assets/icons/calender.png"/>&nbsp;&nbsp; 10th March - 30th April 2020</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!---->
+              <div class="package-card-details" id="package-card-details">
+                <span class="card-head">
 
-    <!--FOOTER SECTION-->
-    <footer class="footer-section">
+                  <h5>Package Summery Details</h5>
+                </span>
+                <div class="package-details-wrapper">
+                  <div class="summary-details">
+                    <div class="first-three">
+                      <div class="activity1">
+                        <h6>Purchase Inclusions</h6>
+                        <div class="first">
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Room as per selection</p>
+                          <p<img src="assets/icons/tick.png"/>&nbsp;&nbsp; Half Board or All Inclusive Meal Plan</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Complimentary Land & Water activities</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Child Under 11 years old stays free</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Free Wi-Fi</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Free Secure Parking</p>
+                        </div>
+                      </div>
+                      <div class="activity2">
+                        <h6>Complimentary Land Based Activities</h6>
+                        <div class="first">
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Gym</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Beach Volley</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Table tennis</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Soccer balls</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Yoga</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Unlimited access to driving range</p>
+                        </div>
+                      </div>
+                      <div class="activity3">
+                        <h6>Complimentary Water Based Activities</h6>
+                        <div class="first">
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Water skiing</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Windsurfing</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Pedal boats</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Kayaking</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Aqua Gym</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Glass bottom boat trips</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="last-three">
+                      <div class="activity4">
+                        <h6>Meal Plan Available</h6>
+                        <div class="first">
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Half Board</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; All Inclusive</p>
+                        </div>
+                      </div>
+                      <div class="activity5">
+                        <h6>Entertainment</h6>
+                        <div class="first">
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Live music</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; DJ & Mauritian Dance Show</p>
+                        </div>
+                      </div>
+                      <div class="activity6">
+                        <h6>Check In & Check Out</h6>
+                        <div class="first">
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Check In Time 14:00</p>
+                          <p><img src="assets/icons/tick.png"/>&nbsp;&nbsp; Check Out Time 11:00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--OTHER PACKAGE SECTION-->
+      <section class="other-packages-section">
         <div class="site-wrapper">
-          <!---->
-          <div class="footer-holder">
-            <div class="best-tour-plan2">
-              <img src="assets/img/footer-logo.png" alt="">
+          <div class="other-package-wrapper">
+            <div class="other-package-header">
+              <h2>OTHER PACKAGES</h2>
             </div>
-            <div class="all-categories">
-              <span>
-                <h4>ALL CATEGORIES</h4>
-              </span>
-              <span>
   
-                <p><a href="">All Deals</a></p>
-                <p><a href=""> Hotels</a></p>
-                <p><a href="">Activities</a></p>
-                <p><a href="">Spa Packages</a></p>
-                <p><a href="">Hotel Day Packages</a></p>
-                <p><a href="">Restaurants</a></p>
-                <p><a href="">Fitness</a></p>
-                <p><a href="">Rodrigues</a></p>
-              </span>
+            <!---->
+            <div class="trip-advisor-wrapper" id="trip-advisor-wrapper">
               
-            </div>
-            <div class="all-categories">
-              <span>
-                <h4>ADDITIONAL INFORMATION</h4>
-              </span>
-              <span>
-                <p><a href="">About Us</a></p>
-                <p><a href="">Contact Us</a></p>
-                <p><a href="">How does it work?</a></p>
-                <p><a href="">Frequently Asked Questions</a></p>
-                <p><a href="">Deals.mu loyalty program</a></p>
-                <p><a href="">Promote your Business on BTP</a></p>
-                <span class="social-icons">
-                  <h4>SOCIAL NETWORK</h4>
+              <div class="wrapp1">
+                <div class="wrapp-image">
+                  <img src="assets/img/grid1.png" alt="">
                   <span>
-                    <a href=""><img src="assets/icons/facebook.png" alt=""></a>
-                    <a href=""><img src="assets/icons/youtube.png" alt=""></a>
-                    <a href=""><img src="assets/icons/instagram.png" alt=""></a>
+                    <p>Flash Offer</p>
                   </span>
-                </span>
-              </span>
-            </div>
-            <div class="all-categories">
-              <span>
-                <h4>LEGAL INFORMATION</h4>
-              </span>
-              <span>
-                <p><a href="">Terms & Conditions</a></p>
-                <p><a href="">Disclaimer</a></p>
-                <p><a href="">Cancellation policy</a></p>
-                <p><a href="">Privacy</a></p>
-              </span>
-            </div>
-          </div>
+                </div>
+                <div class="advisor-style">
+                  <div class="style-wrapper">
+                    <span>
 
-          <!---->
-          <div class="contact-section">
-            <div class="details">
-              <span>
-                <h4>CONTACT DETAILS
-                <p><a href="">Fell free to contact us by phone, email or by our contact form </a></p>
-                </h4>
-              </span>
-              <span>
-                <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp; 9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</p>
-                <p><img src="assets/icons/phone-call.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;Tel (business hours) : 269 1500<br>&nbsp;&nbsp;&nbsp;
-                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)<br>&nbsp;&nbsp;&nbsp;
-                Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</p>
-                <p><img src="assets/icons/mail.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;cherly.lawson@example.com</p>
-              </span>
+                      <img src="assets/icons/stars.png" alt="">
+  
+                      <h4>Hotel Blue Haven</h4>
+
+                      <p>Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit. Ipsum est fugiat velit ea ullamco do</p>
+
+                      <span class="person-room">
+                        <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
+                        <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
+                        <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
+                      </span>
+
+                      
+                      <div class="book-now">
+                        <span>
+                          <p class="slashed">$ 10,500</p>
+                          <h3>$ 8,500</h3>
+
+                        </span>
+                        <button>Book  Now</button>
+                      </div>
+                    </span>
+
+
+                  </div>
+                </div>
+                
+              </div>
+
+              <!---->
+              <div class="wrapp2">
+                <div class="wrapp2-image">
+                  <img src="assets/img/grid2.png" alt="">
+                  <span>
+                    <p>Flash Offer</p>
+                  </span>
+                </div>
+                <div class="advisor-style2">
+                  <div class="style-wrapper">
+                    <span>
+                      <h4>LUX* Belle Mare</h4>
+
+                      <span class="person-room">
+                        <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
+                        <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
+                        <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
+                      </span>
+
+                      
+                      <div class="book-now">
+                        <span>
+                          <p class="slashed">$ 8,500</p>
+                          <h3>$ 3,000</h3>
+
+                        </span>
+                        <button>Book  Now</button>
+                      </div>
+                    </span>
+
+
+                  </div>
+                </div>
+                
+              </div>
+
+              <!---->
+              <div class="wrapp3">
+                <div class="wrapp3-image">
+                  <img src="assets/img/grid3.png" alt="">
+                  <span>
+                    <p>Flash Offer</p>
+                  </span>
+                </div>
+                <div class="advisor-style3">
+                  <div class="style-wrapper">
+                    <span>
+                      <h4>White Palace</h4>
+
+                      <span class="person-room">
+                        <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
+                        <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
+                        <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
+                      </span>
+
+                      
+                      <div class="book-now">
+                        <span>
+                          <p class="slashed">$ 10,500</p>
+                          <h3>$ 9,500</h3>
+
+                        </span>
+                        <button>Book  Now</button>
+                      </div>
+                    </span>
+
+
+                  </div>
+                </div>
+                
+              </div>
+
+              <!---->
+              <div class="wrapp4">
+                <div class="wrapp4-image">
+                  <img src="assets/img/grid4.png" alt="">
+                  <span>
+                    <p>Flash Offer</p>
+                  </span>
+                </div>
+                <div class="advisor-style4">
+                  <div class="style-wrapper">
+                    <span>
+                      <h4>Luxury Place</h4>
+
+                      <span class="person-room">
+                        <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
+                        <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
+                        <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
+                      </span>
+
+                      
+                      <div class="book-now">
+                        <span>
+                          <p class="slashed">$ 4,500</p>
+                          <h3>$ 2,500</h3>
+
+                        </span>
+                        <button>Book  Now</button>
+                      </div>
+                    </span>
+
+
+                  </div>
+                </div>
+                
+              </div>
+
+              <!---->
+              <div class="wrapp5">
+                <div class="wrapp5-image">
+                  <img src="assets/img/grid5.png" alt="">
+                  <span>
+                    <p>Flash Offer</p>
+                  </span>
+                </div>
+                <div class="advisor-style5">
+                  <div class="style-wrapper">
+                    <span>
+
+                     
+  
+                      <h4>Hotel Five Star</h4>
+
+                      <span class="person-room">
+                        <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp; 1749 Wheeler Ridge  Delaware</p>
+                        <p><img src="assets/icons/user.png" alt="">&nbsp;&nbsp;&nbsp;2 x Guests</p>
+                        <p><img src="assets/icons/home.png" alt="">&nbsp;&nbsp;&nbsp;1 x Room</p>
+                      </span>
+
+                      
+                      <div class="book-now">
+                        <span>
+                          <p class="slashed">$ 6,500</p>
+                          <h3>$ 3,500</h3>
+
+                        </span>
+                        <button>Book  Now</button>
+                      </div>
+                    </span>
+
+
+                  </div>
+                </div>
+                
+              </div>
+
             </div>
-            <div class="contact-form-section">
-              <span>
-                    <h4>SEND US A MESSAGE</h4>
-              </span>
-              <span class="contact-form">
-                <form class="first-form" action="" method="post">
-                  <input class="name-input" type="text" name="" placeholder="Your Full Name*" id="">
-                  <!---->
-                  <input class="number-input" type="number" name="number" placeholder="Phone Number*" id="">
-                </form>
-                <form class="second-form" action="" method="post">
-                  <textarea class="message-input" type="text" name="text-area" placeholder="Message" id="">.</textarea>
-                </form>
-                <span class="submit-button">
-                  <button type="submit">Send</button>
-                  <p>* Required Fields</p>
-                </span>
-              </span>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!--GUEST REVIEW SECTION-->
+      <section class="guest-review-section" id="guest-review-section">
+        <div class="site-wrapper">
+          <div class="guest-wrapper">
+            <span>
+              <h2>What people thinks about us</h2>
+            </span>
+            <div class="guest-card-style">
+              <span><img src="assets/icons/chevron-left.png" alt=""></span>
+              <div class="holder">
+                <div class="wrapp-review">
+                  <div class="Ellipse-container">
+                    <img src="assets/img/testimonial.png" alt="">
+                    <p>Megan Fox</p>
+                    <p>Stayed 18 Nov, 2019</p>
+                    <img src="assets/icons/stars.png" alt="">
+                  </div>
+                  <div class="review-paragraph">
+                    <p>It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <span><img src="assets/icons/chevron-right.png" alt=""></span>
             </div>
           </div>
-          <br><br><br>
-          <!---->
-          <div class="last-section">
+        </div>
+      </section>
+
+      <!--NEWSLETTER SECTION-->
+      <section class="newsletter-section" id="newsletter-section">
+        <div class="site-wrapper">
+          <div class="news-wrapp">
+            <div class="text">
+              <span>
+                <h3>subscribe to our</h3>
+              </span>
+              <span>
+
+                <h2>Newsletter</h2>
+              </span>
+
+            </div>
+
+            <form class="search" action="" method="get">
+              <input
+                class="search-input"
+                type="search"
+                placeholder="Your email address"
+                name="search"
+                id=""
+              />
+              <button class="search-button">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--ACTIVITIES SECTION-->
+      <section class="activities-section" id="activities-section">
+        <div class="site-wrapper">
+          <div class="activities-wrapp">
+            <div class="activities-heading">
+              <h3>Other Packages</h3>
+            </div>
+            <div class="activities-cards">
+              <div class="card1">
+                <span>
+                  <h4>
+                    The curious corner 
+                    of chamarel
+                  </h4>
+                  <button>Book  Now</button>
+                </span>
+              </div>
+              <div class="card2">
+                <span>
+                  <h4>Gymkhana club golf
+                    course
+                  </h4>
+                  <button>Book  Now</button> 
+                </span>
+              </div>
+              <div class="card3">
+                <span>
+                  <h4>Tamarind falls hiking
+                    trip - full day
+                  </h4>
+                  <button>Book  Now</button>
+                </span>
+              </div>
+              <div class="card4">
+                <span>
+                  <h4>The blue marine discovery
+                    quest</h4>
+                    <button>Book  Now</button> 
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER SECTION-->
+    <footer class="footer-section" id="footer-section">
+      <div class="site-wrapper">
+        <!---->
+        <div class="footer-holder">
+          <div class="best-tour-plan2">
+            <img src="assets/img/footer-logo.png" alt="">
+          </div>
+          <div class="all-categories">
             <span>
-              <p>Disclaimer</p>
-              <p>Conditions of use</p>
-              <p>Cancellation policy</p>
+              <h4>ALL CATEGORIES</h4>
             </span>
             <span>
-              <img src="assets/icons/banks.png" alt="">
+              <p><a href="">All Deals</a></p>
+              <p><a href=""> Hotels</a></p>
+              <p><a href="">Activities</a></p>
+              <p><a href="">Spa Packages</a></p>
+              <p><a href="">Hotel Day Packages</a></p>
+              <p><a href="">Restaurants</a></p>
+              <p><a href="">Fitness</a></p>
+              <p><a href="">Rodrigues</a></p>
+            </span>
+          </div>
+          <div class="all-categories">
+            <span>
+              <h4>ADDITIONAL INFORMATION
+              </h4>
+            </span>
+            <span>
+              <p><a href="">About Us</a></p>
+              <p><a href="">Contact Us</a></p>
+              <p><a href="">How does it work?</a></p>
+              <p><a href="">Frequently Asked Questions</a></p>
+              <p><a href="">Deals.mu loyalty program</a></p>
+              <p><a href="">Promote your Business on BTP</a></p>
+              <span class="social-icons">
+                <h4>Social Network</h4>
+                <span>
+                  <a href=""><img src="assets/icons/facebook.png" alt=""></a>
+                  <a href=""><img src="assets/icons/youtube.png" alt=""></a>
+                  <a href=""><img src="assets/icons/instagram.png" alt=""></a>
+                </span>
+              </span>
+            </span>
+          </div>
+          <div class="all-categories">
+            <span>
+              <h4>LEGAL INFORMATION</h4>
+            </span>
+            <span>
+              <p><a href="">Terms & Conditions</a></p>
+              <p><a href="">Disclaimer</a></p>
+              <p><a href="">Cancellation policy</a></p>
+              <p><a href="">Privacy</a></p>
             </span>
           </div>
         </div>
+        <!---->
+        <div class="contact-section">
+          <div class="details">
+            <span>
+              <h4>CONTACT DETAILS
+              <p><a href="">Fell free to contact us by phone, email or by our contact form </a></p>
+              </h4>
+            </span>
+            <span>
+              <p><img src="assets/icons/map-pin.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</p>
+              <p><img src="assets/icons/phone-call.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel (business hours) : 269 1500<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</p>
+              <p><img src="assets/icons/mail.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cherly.lawson@example.com</p>
+            </span>
+          </div>
+          <div class="contact-form-section">
+            <span>
+              <h4>SEND US A MESSAGE 
+              </h4>
+            </span>
+            <span class="contact-form">
+              <form class="first-form" action="" method="post">
+                <input class="name-input" type="text" name="" placeholder="Your Full Name*" id="">
+                <!---->
+                <input class="number-input" type="number" name="number" placeholder="Phone Number*" id="">
+              </form>
+              <form class="second-form" action="" method="post">
+                <textarea class="message-input" name="" id="" cols="30" placeholder="Message" rows="10"></textarea>
+              </form>
+              <span class="submit-button">
+                <button type="submit">Send</button>
+                <p>* Required Fields</p>
+              </span>
+            </span>
+          </div>
+        </div>
+        <!---->
+        <div class="last-section">
+          <span>
+            <p>Disclaimer</p>
+            <p>Conditions of use</p>
+            <p>Cancellation policy</p>
+          </span>
+          <span>
+            <img src="assets/icons/banks.png" alt="">
+          </span>
+        </div>
+      </div>
     </footer>
-
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>

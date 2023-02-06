@@ -1,80 +1,41 @@
-//These are the mixins for this project 
-@mixin respond($breakpoint) {
-    @if $breakpoint == sm {
-      @media only screen and (max-width: 40em) {
-        @content;
-      } //600px
-    }
-  
-    // @if $breakpoint == phone-mid {
-    //   @media only screen and (max-width: 43.75em) {
-    //     @content;
-    //   } //700px
-    // }
-  
-    // @if $breakpoint == tab-port {
-    //   @media only screen and (max-width: 50em) {
-    //     @content;
-    //   } //800px
-    // }
-  
-    @if $breakpoint == laptop-mid-size {
-      @media only screen and (max-width: 67.5em) {
-        @content;
-      } //1080px
-    }
-  
-    // @if $breakpoint == tab-land {
-    //   @media only screen and (max-width: 75em) {
-    //     @content;
-    //   } //1200px
-    // }
-  
-    @if $breakpoint == big-desktop-assoc {
-      @media only screen and (max-width: 109.5em) {
-        @content;
-      } //1440px
-    }
-  
-    // @if $breakpoint == big-desktop {
-    //   @media only screen and (min-width: 110em) {
-    //     @content;
-    //   } //1800px
-    // }
-}
+// This are variables for sizing across the site
+//Font sizings
+$smallest-sizing: 10px;
+$smaller-sizing: 12px;
+$small-sizing: 13px;
+$medium-sizing: 14px;
+$Large-sizing: 18px;
+$larger-sizing: 24px;
+$largest-sizing: 36px;
+$extralarge-sizing: 64px;
 
-
-//These are the colors used throughout the site
-$primary-color: #FFFFFF;
-$secondary-color: #0A223D;
-$tertiary-color: #EC1F46;
+//Colors
+$primary-color: #EC1F46;
+$secondary-color: #FFFFFF;
+$tertiary-color: #0A223D;
 $header-color: #333333;
 $footer-text-color: #BDBDBD;
 $main-bg-color: #F5FAFE;
 
-//These are the font sizes used throughout the site
-$minute-sizing: 8px;
-$smallest-sizing: 10px;
-$smaller-sizing: 12px;
-$small-sizing: 13px;
-$normal-sizing: 14px;
-$large-sizing: 18px;
-$larger-sizing: 24px;
-$largest-sizing: 36px;
-$extra-large-sizing: 64px;
 
-html,
+
 body {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Mulish';
     background-color: $main-bg-color;
 }
 
+a {
+    text-decoration: none;
+    color: $header-color;
+}
+
+
 h1 {
-    font-size: $extra-large-sizing;
-    line-height: 64px;
+    font-size: $extralarge-sizing ;
+
 }
 
 h2 {
@@ -83,53 +44,52 @@ h2 {
 
 h3 {
     font-size: $larger-sizing;
+    line-height: 30px;
 }
 
 h4 {
-    font-size: $large-sizing;
+    font-size: $Large-sizing;
 }
 
 h5 {
-    font-size: $small-sizing;
+    font-size: $medium-sizing;
 }
 
 h6 {
-    font-size: $smaller-sizing;
+    font-size: $small-sizing;
 }
+
 
 p {
     font-size: $smaller-sizing;
+
 }
+
 
 ul {
     list-style: none;
-    line-height: 18px;
+    line-height: $larger-sizing;
     padding-left: 0;
     padding-right: 0;
+
 }
 
-li {    
+li {
+
     @extend ul;
-    font-family: 'Mulish';
+
     font-style: normal;
+    font-family: 'Mulish';
     font-weight: 700;
-    font-size: $normal-sizing;
+    font-size: $medium-sizing;
 
     a {
-        color: $primary-color!important;
+        color: $secondary-color !important;
     }
+
 }
 
-a {
-    text-decoration: none;
-    color: $header-color;
-}
 
-.button {
-  border: none;
-  cursor: pointer;
-  background: none;
-}
 
 .flex {
     display: flex;
@@ -139,11 +99,89 @@ a {
         width: 100%;
     }
 
-    &.gap {
-        gap: 18px;
-    }
-
     &.item-center {
         align-items: center;
     }
+
+    &.gap {
+        gap: 18px;
+    }
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+
+
+/*
+0-640px: phone
+640-768px: Tablet portrait
+768 - 1024px: Tablet landscape
+1024 - px:  small desktop styles
+$breakpoint arguments choices:
+-sm
+-md
+-lg
+-xl
+1em = 16px
+*/
+@mixin respond($breakpoint) {
+    @if $breakpoint ==sm {
+        @media only screen and (min-width: 40em) {
+            @content;
+        }
+
+        //640px
+    }
+
+    @if $breakpoint ==md {
+        @media only screen and (min-width: 48em) {
+            @content;
+        }
+
+        //768px
+    }
+
+    @if $breakpoint ==lg {
+        @media only screen and (min-width: 64em) {
+            @content;
+        }
+
+        //1024px
+    }
+
+    @if $breakpoint ==xl {
+        @media only screen and (miin-width: 80em) {
+            @content;
+        }
+
+        //1280px
+    }
+
+    @if $breakpoint ==2xl {
+        @media only screen and (max-width: 96em) {
+            @content;
+        }
+
+        //1536px
+    }
+
+    // @if $breakpoint ==big-desktop-assoc {
+    //     @media only screen and (max-width: 109.5em) {
+    //         @content;
+    //     }
+
+    //     //1440px
+    // }
+
+    // @if $breakpoint ==big-desktop {
+    //     @media only screen and (min-width: 110em) {
+    //         @content;
+    //     }
+
+    //     //1800px
+    // }
 }
