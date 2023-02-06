@@ -42,9 +42,55 @@
         display: flex;
         gap: 30px;
         align-items: center;
-        width: 100%;
+        width: 79%;
         justify-content: center;
+        
+        .button-menu {
+            background: none;
+            cursor: pointer;
+            border: none;
+        }
 
         @include respond(sm) {}
+    }
+}
+
+//Nav bottom styles
+
+.nav-bottom-list {
+    &-sm {
+        overflow-x: scroll;
+        width: 100%;
+
+        .list-menu {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+
+            li {
+                display: flex;
+
+                a {
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 9px;
+                    line-height: 18px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        @include respond(sm) {}
+    }
+}
+
+.slider {
+    &-sm {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
     }
 }

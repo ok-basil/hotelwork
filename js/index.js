@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("logo-search").classList.remove("logo-search");
 
         //Apply this style to my nav search input
-        document.getElementById("nav-search-input").classList.add("search-input-sm");
-        document.getElementById("nav-search-input").classList.remove("search-input");
+        document.getElementById("search-input").classList.add("search-input-sm");
+        document.getElementById("search-input").classList.remove("search-input");
 
         //Apply styles to the best tour plan
         document.getElementById("best-tour-plan").classList.add("best-tour-plan-sm");
