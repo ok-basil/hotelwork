@@ -1,1 +1,1 @@
-This contains work on the hotel website
+This contains frontend work on a hotel website
