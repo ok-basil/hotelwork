@@ -114,20 +114,6 @@ li {
     background: none;
 }
 
-
-
-/*
-0-640px: phone
-640-768px: Tablet portrait
-768 - 1024px: Tablet landscape
-1024 - px:  small desktop styles
-$breakpoint arguments choices:
--sm
--md
--lg
--xl
-1em = 16px
-*/
 @mixin respond($breakpoint) {
     @if $breakpoint ==sm {
         @media only screen and (min-width: 40em) {
@@ -168,20 +154,4 @@ $breakpoint arguments choices:
 
         //1536px
     }
-
-    // @if $breakpoint ==big-desktop-assoc {
-    //     @media only screen and (max-width: 109.5em) {
-    //         @content;
-    //     }
-
-    //     //1440px
-    // }
-
-    // @if $breakpoint ==big-desktop {
-    //     @media only screen and (min-width: 110em) {
-    //         @content;
-    //     }
-
-    //     //1800px
-    // }
 }
